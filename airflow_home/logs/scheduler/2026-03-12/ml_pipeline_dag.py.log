@@ -1,0 +1,1519 @@
+[2026-03-12T00:40:52.601+0000] {processor.py:186} INFO - Started process (PID=4651) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:40:52.602+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py for tasks to queue
+[2026-03-12T00:40:52.603+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:40:52.603+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:40:53.522+0000] {processor.py:925} INFO - DAG(s) 'ml_pipeline' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:40:53.596+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:40:53.595+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:ml_pipeline
+[2026-03-12T00:40:53.606+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:40:53.606+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:ml_pipeline
+[2026-03-12T00:40:53.614+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:40:53.614+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:ml_pipeline
+[2026-03-12T00:40:53.628+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:40:53.628+0000] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:ml_pipeline
+[2026-03-12T00:40:53.637+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:40:53.636+0000] {override.py:1930} INFO - Created Permission View: can read on DAG Run:ml_pipeline
+[2026-03-12T00:40:53.645+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:40:53.645+0000] {override.py:1930} INFO - Created Permission View: can create on DAG Run:ml_pipeline
+[2026-03-12T00:40:53.654+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:40:53.654+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:ml_pipeline
+[2026-03-12T00:40:53.655+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:40:53.654+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-12T00:40:53.665+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:40:53.665+0000] {dag.py:3262} INFO - Creating ORM DAG for ml_pipeline
+[2026-03-12T00:40:53.666+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:40:53.666+0000] {dag.py:4180} INFO - Setting next_dagrun for ml_pipeline to None, run_after=None
+[2026-03-12T00:40:53.681+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py took 1.085 seconds
+[2026-03-12T00:41:55.679+0000] {processor.py:186} INFO - Started process (PID=4763) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:41:55.680+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py for tasks to queue
+[2026-03-12T00:41:55.682+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:41:55.682+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:41:56.605+0000] {processor.py:925} INFO - DAG(s) 'ml_pipeline' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:41:56.614+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:41:56.613+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-12T00:41:56.621+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:41:56.621+0000] {dag.py:4180} INFO - Setting next_dagrun for ml_pipeline to None, run_after=None
+[2026-03-12T00:41:56.637+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py took 0.962 seconds
+[2026-03-12T00:42:56.181+0000] {processor.py:186} INFO - Started process (PID=4908) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:42:56.182+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py for tasks to queue
+[2026-03-12T00:42:56.183+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:42:56.183+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:42:57.110+0000] {processor.py:925} INFO - DAG(s) 'ml_pipeline' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:42:57.117+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:42:57.117+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-12T00:42:57.125+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:42:57.125+0000] {dag.py:4180} INFO - Setting next_dagrun for ml_pipeline to None, run_after=None
+[2026-03-12T00:42:57.141+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py took 0.965 seconds
+[2026-03-12T00:43:52.698+0000] {processor.py:186} INFO - Started process (PID=4988) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:43:52.700+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py for tasks to queue
+[2026-03-12T00:43:52.701+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:43:52.701+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:43:53.631+0000] {processor.py:925} INFO - DAG(s) 'ml_pipeline' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:43:53.640+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:43:53.639+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-12T00:43:53.648+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:43:53.648+0000] {dag.py:4180} INFO - Setting next_dagrun for ml_pipeline to None, run_after=None
+[2026-03-12T00:43:53.664+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py took 0.970 seconds
+[2026-03-12T00:44:55.096+0000] {processor.py:186} INFO - Started process (PID=5151) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:44:55.097+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py for tasks to queue
+[2026-03-12T00:44:55.099+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:44:55.099+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:44:56.025+0000] {processor.py:925} INFO - DAG(s) 'ml_pipeline' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:44:56.033+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:44:56.033+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-12T00:44:56.042+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:44:56.042+0000] {dag.py:4180} INFO - Setting next_dagrun for ml_pipeline to None, run_after=None
+[2026-03-12T00:44:56.057+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py took 0.965 seconds
+[2026-03-12T00:45:56.455+0000] {processor.py:186} INFO - Started process (PID=5282) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:45:56.456+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py for tasks to queue
+[2026-03-12T00:45:56.458+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:45:56.458+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:45:57.390+0000] {processor.py:925} INFO - DAG(s) 'ml_pipeline' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:45:57.400+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:45:57.400+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-12T00:45:57.408+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:45:57.408+0000] {dag.py:4180} INFO - Setting next_dagrun for ml_pipeline to None, run_after=None
+[2026-03-12T00:45:57.425+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py took 0.974 seconds
+[2026-03-12T00:46:54.921+0000] {processor.py:186} INFO - Started process (PID=5366) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:46:54.922+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py for tasks to queue
+[2026-03-12T00:46:54.924+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:46:54.923+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:46:55.852+0000] {processor.py:925} INFO - DAG(s) 'ml_pipeline' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:46:55.860+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:46:55.860+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-12T00:46:55.869+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:46:55.869+0000] {dag.py:4180} INFO - Setting next_dagrun for ml_pipeline to None, run_after=None
+[2026-03-12T00:46:55.884+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py took 0.968 seconds
+[2026-03-12T00:48:27.010+0000] {processor.py:186} INFO - Started process (PID=5562) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:48:27.011+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py for tasks to queue
+[2026-03-12T00:48:27.013+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:48:27.012+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:48:27.941+0000] {processor.py:925} INFO - DAG(s) 'ml_pipeline' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:48:27.950+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:48:27.950+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-12T00:48:27.959+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:48:27.959+0000] {dag.py:4180} INFO - Setting next_dagrun for ml_pipeline to None, run_after=None
+[2026-03-12T00:48:27.975+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py took 0.969 seconds
+[2026-03-12T00:49:37.611+0000] {processor.py:186} INFO - Started process (PID=5719) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:49:37.612+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py for tasks to queue
+[2026-03-12T00:49:37.614+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:49:37.614+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:49:38.534+0000] {processor.py:925} INFO - DAG(s) 'ml_pipeline' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:49:38.542+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:49:38.542+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-12T00:49:38.551+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:49:38.551+0000] {dag.py:4180} INFO - Setting next_dagrun for ml_pipeline to None, run_after=None
+[2026-03-12T00:49:38.566+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py took 0.959 seconds
+[2026-03-12T00:50:34.902+0000] {processor.py:186} INFO - Started process (PID=5817) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:50:34.903+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py for tasks to queue
+[2026-03-12T00:50:34.905+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:50:34.905+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:50:35.824+0000] {processor.py:925} INFO - DAG(s) 'ml_pipeline' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:50:35.832+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:50:35.832+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-12T00:50:35.841+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:50:35.841+0000] {dag.py:4180} INFO - Setting next_dagrun for ml_pipeline to None, run_after=None
+[2026-03-12T00:50:35.856+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py took 0.958 seconds
+[2026-03-12T00:51:35.242+0000] {processor.py:186} INFO - Started process (PID=6094) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:51:35.243+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py for tasks to queue
+[2026-03-12T00:51:35.245+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:51:35.245+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:51:36.157+0000] {processor.py:925} INFO - DAG(s) 'ml_pipeline' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:51:36.165+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:51:36.165+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-12T00:51:36.173+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:51:36.173+0000] {dag.py:4180} INFO - Setting next_dagrun for ml_pipeline to None, run_after=None
+[2026-03-12T00:51:36.189+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py took 0.951 seconds
+[2026-03-12T00:52:34.908+0000] {processor.py:186} INFO - Started process (PID=6331) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:52:34.910+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py for tasks to queue
+[2026-03-12T00:52:34.912+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:52:34.911+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:52:35.830+0000] {processor.py:925} INFO - DAG(s) 'ml_pipeline' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:52:35.838+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:52:35.838+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-12T00:52:35.847+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:52:35.847+0000] {dag.py:4180} INFO - Setting next_dagrun for ml_pipeline to None, run_after=None
+[2026-03-12T00:52:35.864+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py took 0.960 seconds
+[2026-03-12T00:53:35.364+0000] {processor.py:186} INFO - Started process (PID=6540) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:53:35.366+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py for tasks to queue
+[2026-03-12T00:53:35.368+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:53:35.367+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:53:36.282+0000] {processor.py:925} INFO - DAG(s) 'ml_pipeline' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:53:36.290+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:53:36.290+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-12T00:53:36.300+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:53:36.300+0000] {dag.py:4180} INFO - Setting next_dagrun for ml_pipeline to None, run_after=None
+[2026-03-12T00:53:36.316+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py took 0.957 seconds
+[2026-03-12T00:54:39.366+0000] {processor.py:186} INFO - Started process (PID=6754) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:54:39.368+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py for tasks to queue
+[2026-03-12T00:54:39.369+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:54:39.369+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:54:40.283+0000] {processor.py:925} INFO - DAG(s) 'ml_pipeline' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:54:40.291+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:54:40.290+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-12T00:54:40.299+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:54:40.299+0000] {dag.py:4180} INFO - Setting next_dagrun for ml_pipeline to None, run_after=None
+[2026-03-12T00:54:40.314+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py took 0.952 seconds
+[2026-03-12T00:56:07.640+0000] {processor.py:186} INFO - Started process (PID=6945) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:56:07.642+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py for tasks to queue
+[2026-03-12T00:56:07.643+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:56:07.643+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:56:08.557+0000] {processor.py:925} INFO - DAG(s) 'ml_pipeline' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:56:08.566+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:56:08.565+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-12T00:56:08.574+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:56:08.573+0000] {dag.py:4180} INFO - Setting next_dagrun for ml_pipeline to None, run_after=None
+[2026-03-12T00:56:08.592+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py took 0.956 seconds
+[2026-03-12T00:57:05.220+0000] {processor.py:186} INFO - Started process (PID=7115) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:57:05.221+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py for tasks to queue
+[2026-03-12T00:57:05.223+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:57:05.222+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:57:06.144+0000] {processor.py:925} INFO - DAG(s) 'ml_pipeline' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:57:06.153+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:57:06.152+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-12T00:57:06.161+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:57:06.161+0000] {dag.py:4180} INFO - Setting next_dagrun for ml_pipeline to None, run_after=None
+[2026-03-12T00:57:06.174+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py took 0.959 seconds
+[2026-03-12T00:58:31.730+0000] {processor.py:186} INFO - Started process (PID=7356) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:58:31.731+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py for tasks to queue
+[2026-03-12T00:58:31.733+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:58:31.732+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:58:32.658+0000] {processor.py:925} INFO - DAG(s) 'ml_pipeline' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-12T00:58:32.666+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:58:32.666+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-12T00:58:32.675+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:58:32.674+0000] {dag.py:4180} INFO - Setting next_dagrun for ml_pipeline to None, run_after=None
+[2026-03-12T00:58:32.689+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py took 0.963 seconds
+[2026-03-12T00:59:03.276+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T00:59:33.456+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:00:03.644+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:00:33.835+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:01:04.024+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:01:34.215+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:02:04.404+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:02:34.594+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:03:04.784+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:03:34.973+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:04:05.165+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:04:35.352+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:05:05.482+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:05:35.680+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:06:05.876+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:06:36.075+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:07:06.272+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:07:36.468+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:08:06.665+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:08:36.863+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:09:07.059+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:09:37.256+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:10:07.457+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:10:37.649+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:11:07.847+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:11:38.042+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:12:08.240+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:12:38.437+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:13:08.635+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:13:38.834+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:14:09.029+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:14:39.226+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:15:09.426+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:15:39.624+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:16:09.823+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:16:40.020+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:17:10.219+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:17:40.415+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:18:10.612+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:18:40.809+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:19:11.005+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:19:41.201+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:20:11.397+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:20:41.594+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:21:11.790+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:21:41.987+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:22:12.182+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:22:42.377+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:23:12.573+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:23:42.768+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:24:12.933+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:24:43.096+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:25:13.258+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:25:43.419+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:26:13.577+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:26:43.739+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:27:13.905+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+[2026-03-12T01:27:44.071+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy

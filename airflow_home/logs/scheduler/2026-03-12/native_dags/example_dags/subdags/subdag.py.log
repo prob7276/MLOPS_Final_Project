@@ -1,0 +1,114 @@
+[2026-03-12T00:40:48.625+0000] {processor.py:186} INFO - Started process (PID=4645) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:40:48.625+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2026-03-12T00:40:48.626+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:40:48.626+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:40:48.628+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:40:48.636+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.016 seconds
+[2026-03-12T00:41:51.534+0000] {processor.py:186} INFO - Started process (PID=4757) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:41:51.535+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2026-03-12T00:41:51.537+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:41:51.536+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:41:51.538+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:41:51.546+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.016 seconds
+[2026-03-12T00:42:52.400+0000] {processor.py:186} INFO - Started process (PID=4902) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:42:52.402+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2026-03-12T00:42:52.404+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:42:52.404+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:42:52.406+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:42:52.414+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2026-03-12T00:43:48.933+0000] {processor.py:186} INFO - Started process (PID=4982) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:43:48.934+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2026-03-12T00:43:48.935+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:43:48.935+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:43:48.937+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:43:48.945+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.017 seconds
+[2026-03-12T00:44:50.786+0000] {processor.py:186} INFO - Started process (PID=5145) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:44:50.788+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2026-03-12T00:44:50.789+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:44:50.789+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:44:50.791+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:44:50.803+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2026-03-12T00:45:52.828+0000] {processor.py:186} INFO - Started process (PID=5276) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:45:52.829+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2026-03-12T00:45:52.831+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:45:52.831+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:45:52.833+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:45:52.841+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.017 seconds
+[2026-03-12T00:46:51.296+0000] {processor.py:186} INFO - Started process (PID=5360) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:46:51.298+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2026-03-12T00:46:51.299+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:46:51.299+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:46:51.301+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:46:51.309+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.017 seconds
+[2026-03-12T00:47:50.352+0000] {processor.py:186} INFO - Started process (PID=5492) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:47:50.353+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2026-03-12T00:47:50.355+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:47:50.355+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:47:50.357+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:47:50.365+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2026-03-12T00:49:07.283+0000] {processor.py:186} INFO - Started process (PID=5637) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:49:07.284+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2026-03-12T00:49:07.286+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:49:07.285+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:49:07.287+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:49:07.296+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.017 seconds
+[2026-03-12T00:50:05.762+0000] {processor.py:186} INFO - Started process (PID=5770) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:50:05.763+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2026-03-12T00:50:05.764+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:50:05.764+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:50:05.766+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:50:05.774+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.017 seconds
+[2026-03-12T00:51:02.794+0000] {processor.py:186} INFO - Started process (PID=6010) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:51:02.795+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2026-03-12T00:51:02.798+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:51:02.797+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:51:02.799+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:51:02.811+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2026-03-12T00:52:02.466+0000] {processor.py:186} INFO - Started process (PID=6223) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:52:02.467+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2026-03-12T00:52:02.469+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:52:02.469+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:52:02.470+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:52:02.479+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.017 seconds
+[2026-03-12T00:53:01.784+0000] {processor.py:186} INFO - Started process (PID=6384) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:53:01.785+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2026-03-12T00:53:01.787+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:53:01.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:53:01.788+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:53:01.798+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2026-03-12T00:54:05.723+0000] {processor.py:186} INFO - Started process (PID=6608) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:54:05.724+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2026-03-12T00:54:05.726+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:54:05.726+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:54:05.727+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:54:05.736+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.017 seconds
+[2026-03-12T00:55:05.978+0000] {processor.py:186} INFO - Started process (PID=6819) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:55:05.979+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2026-03-12T00:55:05.980+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:55:05.980+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:55:05.982+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:55:05.991+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2026-03-12T00:56:06.195+0000] {processor.py:186} INFO - Started process (PID=6938) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:56:06.197+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2026-03-12T00:56:06.198+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:56:06.198+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:56:06.200+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:56:06.208+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.017 seconds
+[2026-03-12T00:57:03.486+0000] {processor.py:186} INFO - Started process (PID=7109) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:57:03.487+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2026-03-12T00:57:03.488+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:57:03.488+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:57:03.490+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:57:03.499+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.017 seconds
+[2026-03-12T00:58:01.326+0000] {processor.py:186} INFO - Started process (PID=7222) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:58:01.327+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2026-03-12T00:58:01.330+0000] {logging_mixin.py:190} INFO - [2026-03-12T00:58:01.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:58:01.331+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-03-12T00:58:01.340+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2026-03-12T00:58:59.461+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
