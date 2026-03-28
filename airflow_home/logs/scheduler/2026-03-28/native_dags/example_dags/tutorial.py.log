@@ -1371,3 +1371,24 @@
 [2026-03-28T23:02:08.975+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:02:08.975+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-03-28T23:02:08.990+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:02:08.990+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2026-03-27 00:00:00+00:00, run_after=2026-03-28 00:00:00+00:00
 [2026-03-28T23:02:09.008+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.059 seconds
+[2026-03-28T23:03:11.148+0000] {processor.py:186} INFO - Started process (PID=37933) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-03-28T23:03:11.150+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-28T23:03:11.152+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:03:11.151+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-03-28T23:03:11.158+0000] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-03-28T23:03:11.170+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:03:11.170+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-28T23:03:11.186+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:03:11.186+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2026-03-27 00:00:00+00:00, run_after=2026-03-28 00:00:00+00:00
+[2026-03-28T23:03:11.203+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.060 seconds
+[2026-03-28T23:04:18.544+0000] {processor.py:186} INFO - Started process (PID=38112) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-03-28T23:04:18.545+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-28T23:04:18.547+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:04:18.547+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-03-28T23:04:18.554+0000] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-03-28T23:04:18.566+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:04:18.566+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-28T23:04:18.581+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:04:18.581+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2026-03-27 00:00:00+00:00, run_after=2026-03-28 00:00:00+00:00
+[2026-03-28T23:04:18.599+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.060 seconds
+[2026-03-28T23:05:22.931+0000] {processor.py:186} INFO - Started process (PID=38338) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-03-28T23:05:22.932+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-28T23:05:22.933+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:05:22.933+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-03-28T23:05:22.939+0000] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-03-28T23:05:22.952+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:05:22.951+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-28T23:05:22.967+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:05:22.967+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2026-03-27 00:00:00+00:00, run_after=2026-03-28 00:00:00+00:00
+[2026-03-28T23:05:22.983+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.059 seconds

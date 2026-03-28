@@ -2223,3 +2223,42 @@ ModuleNotFoundError: No module named 'sklearn'
 [2026-03-28T23:02:19.917+0000] {processor.py:186} INFO - Started process (PID=37783) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
 [2026-03-28T23:02:19.919+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py for tasks to queue
 [2026-03-28T23:02:19.920+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:02:19.920+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-28T23:02:20.944+0000] {processor.py:925} INFO - DAG(s) 'ml_training_pipeline_v2' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-28T23:02:20.953+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:02:20.952+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-28T23:02:20.961+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:02:20.961+0000] {dag.py:4180} INFO - Setting next_dagrun for ml_training_pipeline_v2 to None, run_after=None
+[2026-03-28T23:02:20.992+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py took 1.080 seconds
+[2026-03-28T23:03:24.475+0000] {processor.py:186} INFO - Started process (PID=37959) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-28T23:03:24.476+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py for tasks to queue
+[2026-03-28T23:03:24.477+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:03:24.477+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-28T23:03:25.467+0000] {processor.py:925} INFO - DAG(s) 'ml_training_pipeline_v2' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-28T23:03:25.476+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:03:25.475+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-28T23:03:25.484+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:03:25.484+0000] {dag.py:4180} INFO - Setting next_dagrun for ml_training_pipeline_v2 to None, run_after=None
+[2026-03-28T23:03:25.499+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py took 1.030 seconds
+[2026-03-28T23:03:59.121+0000] {processor.py:186} INFO - Started process (PID=38067) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-28T23:03:59.122+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py for tasks to queue
+[2026-03-28T23:03:59.124+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:03:59.124+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-28T23:04:00.112+0000] {processor.py:925} INFO - DAG(s) 'ml_training_pipeline_v2' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-28T23:04:00.120+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:04:00.119+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-28T23:04:00.128+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:04:00.128+0000] {dag.py:4180} INFO - Setting next_dagrun for ml_training_pipeline_v2 to None, run_after=None
+[2026-03-28T23:04:00.143+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py took 1.028 seconds
+[2026-03-28T23:04:30.404+0000] {processor.py:186} INFO - Started process (PID=38143) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-28T23:04:30.405+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py for tasks to queue
+[2026-03-28T23:04:30.406+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:04:30.406+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-28T23:04:31.380+0000] {processor.py:925} INFO - DAG(s) 'ml_training_pipeline_v2' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-28T23:04:31.388+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:04:31.388+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-28T23:04:31.397+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:04:31.397+0000] {dag.py:4180} INFO - Setting next_dagrun for ml_training_pipeline_v2 to None, run_after=None
+[2026-03-28T23:04:31.413+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py took 1.015 seconds
+[2026-03-28T23:05:03.398+0000] {processor.py:186} INFO - Started process (PID=38299) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-28T23:05:03.399+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py for tasks to queue
+[2026-03-28T23:05:03.401+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:05:03.401+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-28T23:05:04.380+0000] {processor.py:925} INFO - DAG(s) 'ml_training_pipeline_v2' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-28T23:05:04.388+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:05:04.387+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-28T23:05:04.397+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:05:04.397+0000] {dag.py:4180} INFO - Setting next_dagrun for ml_training_pipeline_v2 to None, run_after=None
+[2026-03-28T23:05:04.413+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py took 1.020 seconds
+[2026-03-28T23:05:35.025+0000] {processor.py:186} INFO - Started process (PID=38365) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-28T23:05:35.026+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py for tasks to queue
+[2026-03-28T23:05:35.027+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:05:35.027+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-28T23:05:35.998+0000] {processor.py:925} INFO - DAG(s) 'ml_training_pipeline_v2' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-03-28T23:05:36.005+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:05:36.005+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-28T23:05:36.013+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:05:36.013+0000] {dag.py:4180} INFO - Setting next_dagrun for ml_training_pipeline_v2 to None, run_after=None
+[2026-03-28T23:05:36.028+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py took 1.009 seconds

@@ -1551,3 +1551,24 @@ ModuleNotFoundError: No module named 'sklearn'
 [2026-03-28T23:01:50.436+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:01:50.435+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-03-28T23:01:50.445+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:01:50.445+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
 [2026-03-28T23:01:50.460+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/train_model_dag.py took 1.053 seconds
+[2026-03-28T23:03:20.861+0000] {processor.py:186} INFO - Started process (PID=37949) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/train_model_dag.py
+[2026-03-28T23:03:20.862+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/train_model_dag.py for tasks to queue
+[2026-03-28T23:03:20.864+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:03:20.864+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/train_model_dag.py
+[2026-03-28T23:03:21.857+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/train_model_dag.py
+[2026-03-28T23:03:21.864+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:03:21.864+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-28T23:03:21.873+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:03:21.873+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-03-28T23:03:21.888+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/train_model_dag.py took 1.033 seconds
+[2026-03-28T23:04:26.401+0000] {processor.py:186} INFO - Started process (PID=38130) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/train_model_dag.py
+[2026-03-28T23:04:26.402+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/train_model_dag.py for tasks to queue
+[2026-03-28T23:04:26.404+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:04:26.404+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/train_model_dag.py
+[2026-03-28T23:04:27.349+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/train_model_dag.py
+[2026-03-28T23:04:27.355+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:04:27.355+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-28T23:04:27.363+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:04:27.363+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-03-28T23:04:27.379+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/train_model_dag.py took 0.983 seconds
+[2026-03-28T23:05:30.937+0000] {processor.py:186} INFO - Started process (PID=38351) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/train_model_dag.py
+[2026-03-28T23:05:30.938+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/train_model_dag.py for tasks to queue
+[2026-03-28T23:05:30.939+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:05:30.939+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/train_model_dag.py
+[2026-03-28T23:05:31.929+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/train_model_dag.py
+[2026-03-28T23:05:31.936+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:05:31.936+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-28T23:05:31.945+0000] {logging_mixin.py:190} INFO - [2026-03-28T23:05:31.944+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-03-28T23:05:31.960+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/train_model_dag.py took 1.030 seconds
