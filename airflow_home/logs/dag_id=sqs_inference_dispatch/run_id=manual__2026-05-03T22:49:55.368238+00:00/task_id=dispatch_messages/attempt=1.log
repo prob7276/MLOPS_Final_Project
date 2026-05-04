@@ -1,0 +1,77 @@
+[2026-05-03T22:49:58.839+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-03T22:49:58.846+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sqs_inference_dispatch.dispatch_messages manual__2026-05-03T22:49:55.368238+00:00 [queued]>
+[2026-05-03T22:49:58.850+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sqs_inference_dispatch.dispatch_messages manual__2026-05-03T22:49:55.368238+00:00 [queued]>
+[2026-05-03T22:49:58.850+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-05-03T22:49:58.861+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): dispatch_messages> on 2026-05-03 22:49:55.368238+00:00
+[2026-05-03T22:49:58.864+0000] {standard_task_runner.py:72} INFO - Started process 57696 to run task
+[2026-05-03T22:49:58.866+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'sqs_inference_dispatch', 'dispatch_messages', 'manual__2026-05-03T22:49:55.368238+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/sqs_dispatch_dag.py', '--cfg-path', '/tmp/tmp63bt590t']
+[2026-05-03T22:49:58.866+0000] {standard_task_runner.py:105} INFO - Job 29: Subtask dispatch_messages
+[2026-05-03T22:49:58.896+0000] {task_command.py:467} INFO - Running <TaskInstance: sqs_inference_dispatch.dispatch_messages manual__2026-05-03T22:49:55.368238+00:00 [running]> on host ip-172-31-33-18.ec2.internal
+[2026-05-03T22:49:58.937+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='sqs_inference_dispatch' AIRFLOW_CTX_TASK_ID='dispatch_messages' AIRFLOW_CTX_EXECUTION_DATE='2026-05-03T22:49:55.368238+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-03T22:49:55.368238+00:00'
+[2026-05-03T22:49:58.937+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-05-03T22:49:58.937+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-05-03T22:49:58.938+0000] {logging_mixin.py:190} INFO - Current task name:dispatch_messages state:running start_date:2026-05-03 22:49:58.846478+00:00
+[2026-05-03T22:49:58.938+0000] {logging_mixin.py:190} INFO - Dag name:sqs_inference_dispatch and current dag run status:running
+[2026-05-03T22:49:58.938+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-05-03T22:49:58.949+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2026-05-03T22:49:59.076+0000] {logging_mixin.py:190} INFO - Sent sample_000 with MessageId: 1d95517b-b6a0-4c56-abc1-16c1bfda0517
+[2026-05-03T22:49:59.103+0000] {logging_mixin.py:190} INFO - Sent sample_001 with MessageId: 50dbf526-22ca-4803-828e-643f40ad58c3
+[2026-05-03T22:49:59.113+0000] {logging_mixin.py:190} INFO - Sent sample_002 with MessageId: c5a50f0f-c9f9-4d73-b0ce-fed9f2510495
+[2026-05-03T22:49:59.119+0000] {logging_mixin.py:190} INFO - Sent sample_003 with MessageId: 6c94da53-5599-48c5-b7d8-248533210347
+[2026-05-03T22:49:59.126+0000] {logging_mixin.py:190} INFO - Sent sample_004 with MessageId: 780ec1d2-f56f-4b7d-b1f5-cb08e73f5f36
+[2026-05-03T22:49:59.132+0000] {logging_mixin.py:190} INFO - Sent sample_005 with MessageId: 822f610e-9e96-4f75-a68d-b3397f8e14e3
+[2026-05-03T22:49:59.141+0000] {logging_mixin.py:190} INFO - Sent sample_006 with MessageId: 833d71b6-5d51-496a-a6dc-216acba55a7e
+[2026-05-03T22:49:59.148+0000] {logging_mixin.py:190} INFO - Sent sample_007 with MessageId: 9802411f-dcaf-4ae0-bcb1-22545082996a
+[2026-05-03T22:49:59.158+0000] {logging_mixin.py:190} INFO - Sent sample_008 with MessageId: 617eebf6-071c-4bad-9c4b-3d866915b45f
+[2026-05-03T22:49:59.166+0000] {logging_mixin.py:190} INFO - Sent sample_009 with MessageId: 28237082-2320-436f-9f5d-161d41a06387
+[2026-05-03T22:49:59.172+0000] {logging_mixin.py:190} INFO - Sent sample_010 with MessageId: 0e93a9aa-4a4d-4b4c-9a48-e54a9f7c779e
+[2026-05-03T22:49:59.178+0000] {logging_mixin.py:190} INFO - Sent sample_011 with MessageId: c44dfa37-38db-4507-a82d-4a21ea765a10
+[2026-05-03T22:49:59.184+0000] {logging_mixin.py:190} INFO - Sent sample_012 with MessageId: b145f154-dd60-4f2c-9569-21c999d148ad
+[2026-05-03T22:49:59.191+0000] {logging_mixin.py:190} INFO - Sent sample_013 with MessageId: 62aa4874-a049-4648-b47b-ab6b9c5a8b51
+[2026-05-03T22:49:59.198+0000] {logging_mixin.py:190} INFO - Sent sample_014 with MessageId: 3a602409-7374-4b76-992e-4bda76caaf86
+[2026-05-03T22:49:59.205+0000] {logging_mixin.py:190} INFO - Sent sample_015 with MessageId: 129a115f-112f-470d-a6ab-cd30be729dc7
+[2026-05-03T22:49:59.212+0000] {logging_mixin.py:190} INFO - Sent sample_016 with MessageId: bb37630c-3be4-40b6-96ae-9113cf0a23c6
+[2026-05-03T22:49:59.218+0000] {logging_mixin.py:190} INFO - Sent sample_017 with MessageId: 37d0f543-afe5-4115-8b14-10dd4b47144d
+[2026-05-03T22:49:59.226+0000] {logging_mixin.py:190} INFO - Sent sample_018 with MessageId: a257e3aa-bac2-4bf5-ae54-cfab243787c5
+[2026-05-03T22:49:59.232+0000] {logging_mixin.py:190} INFO - Sent sample_019 with MessageId: 6b75920b-5b2b-4778-ae6d-64a5953adf05
+[2026-05-03T22:49:59.238+0000] {logging_mixin.py:190} INFO - Sent sample_020 with MessageId: 28ba4a03-3ecb-4314-92b5-41d4fe3726ff
+[2026-05-03T22:49:59.244+0000] {logging_mixin.py:190} INFO - Sent sample_021 with MessageId: 4f050dec-3fd6-4d8a-abba-aed7bfc42d49
+[2026-05-03T22:49:59.251+0000] {logging_mixin.py:190} INFO - Sent sample_022 with MessageId: e3fa25b8-b4d7-40d5-bb0b-c03eec015547
+[2026-05-03T22:49:59.257+0000] {logging_mixin.py:190} INFO - Sent sample_023 with MessageId: cee6ede8-6e29-438f-a90a-9586f8245ebf
+[2026-05-03T22:49:59.263+0000] {logging_mixin.py:190} INFO - Sent sample_024 with MessageId: 9367c09f-0a24-4bb0-b3eb-f33d10c28869
+[2026-05-03T22:49:59.269+0000] {logging_mixin.py:190} INFO - Sent sample_025 with MessageId: 77dc846f-7379-4aba-893f-f18f32f5a5bf
+[2026-05-03T22:49:59.275+0000] {logging_mixin.py:190} INFO - Sent sample_026 with MessageId: 82650e5e-22dd-42b8-a350-d0c154a7639a
+[2026-05-03T22:49:59.281+0000] {logging_mixin.py:190} INFO - Sent sample_027 with MessageId: 44c320c1-f70c-47c9-b36e-e1893c182c24
+[2026-05-03T22:49:59.288+0000] {logging_mixin.py:190} INFO - Sent sample_028 with MessageId: 9ac21d21-a658-4c56-9695-23079c7a7dc9
+[2026-05-03T22:49:59.295+0000] {logging_mixin.py:190} INFO - Sent sample_029 with MessageId: 8f865c37-787d-42bb-a151-eadff8193633
+[2026-05-03T22:49:59.301+0000] {logging_mixin.py:190} INFO - Sent sample_030 with MessageId: 5dac0dae-5cce-42a8-98fd-07c52044abae
+[2026-05-03T22:49:59.307+0000] {logging_mixin.py:190} INFO - Sent sample_031 with MessageId: e393636e-ee7c-4d26-9b10-575ed9eec778
+[2026-05-03T22:49:59.313+0000] {logging_mixin.py:190} INFO - Sent sample_032 with MessageId: 598b5c0e-937f-4725-9d8e-db6d2eed95c8
+[2026-05-03T22:49:59.321+0000] {logging_mixin.py:190} INFO - Sent sample_033 with MessageId: 38bd2416-cc6e-4806-b996-45e74325d3b5
+[2026-05-03T22:49:59.327+0000] {logging_mixin.py:190} INFO - Sent sample_034 with MessageId: b72f19e8-f8e4-4e6c-ba4c-201b13cc8493
+[2026-05-03T22:49:59.333+0000] {logging_mixin.py:190} INFO - Sent sample_035 with MessageId: fb9e3a06-476e-49fa-af90-252fa286570e
+[2026-05-03T22:49:59.340+0000] {logging_mixin.py:190} INFO - Sent sample_036 with MessageId: 4c79902f-3595-43bc-bd52-26d3fc2dc665
+[2026-05-03T22:49:59.346+0000] {logging_mixin.py:190} INFO - Sent sample_037 with MessageId: 6088f368-6954-463f-ad1d-5c9a74ea81c4
+[2026-05-03T22:49:59.353+0000] {logging_mixin.py:190} INFO - Sent sample_038 with MessageId: 093d2c43-4017-4047-9ec5-163aae1bc370
+[2026-05-03T22:49:59.358+0000] {logging_mixin.py:190} INFO - Sent sample_039 with MessageId: 0cc8abac-3882-430f-951f-9909670b9e78
+[2026-05-03T22:49:59.365+0000] {logging_mixin.py:190} INFO - Sent sample_040 with MessageId: f7492524-2417-46c6-bd43-394ac0c63300
+[2026-05-03T22:49:59.372+0000] {logging_mixin.py:190} INFO - Sent sample_041 with MessageId: 6297527a-ff6b-4cd5-a95e-024aab9bab97
+[2026-05-03T22:49:59.382+0000] {logging_mixin.py:190} INFO - Sent sample_042 with MessageId: 7694db9c-df4d-41e2-b4c9-805a3d971e1e
+[2026-05-03T22:49:59.388+0000] {logging_mixin.py:190} INFO - Sent sample_043 with MessageId: 8a17b225-8dd1-46f0-9dba-8c2c7b7fa06d
+[2026-05-03T22:49:59.394+0000] {logging_mixin.py:190} INFO - Sent sample_044 with MessageId: 5fa0549c-6cac-4d4c-b292-02b103ef13a2
+[2026-05-03T22:49:59.400+0000] {logging_mixin.py:190} INFO - Sent sample_045 with MessageId: bee5f055-5e45-4edb-975b-ae7bde92dd5e
+[2026-05-03T22:49:59.406+0000] {logging_mixin.py:190} INFO - Sent sample_046 with MessageId: 21c6553d-54f3-4ac9-99b9-bdb06ccad19a
+[2026-05-03T22:49:59.413+0000] {logging_mixin.py:190} INFO - Sent sample_047 with MessageId: 0febb3c4-c839-4da3-b229-e422db57b2e0
+[2026-05-03T22:49:59.419+0000] {logging_mixin.py:190} INFO - Sent sample_048 with MessageId: d00a9b3e-1915-403a-baef-d8bc47e2fc37
+[2026-05-03T22:49:59.426+0000] {logging_mixin.py:190} INFO - Sent sample_049 with MessageId: 78864cb6-a9a1-46f0-ac16-e83e149ce684
+[2026-05-03T22:49:59.426+0000] {logging_mixin.py:190} INFO - Successfully dispatched 50 messages to SQS.
+[2026-05-03T22:49:59.428+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-05-03T22:49:59.432+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-05-03T22:49:59.432+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=sqs_inference_dispatch, task_id=dispatch_messages, run_id=manual__2026-05-03T22:49:55.368238+00:00, execution_date=20260503T224955, start_date=20260503T224958, end_date=20260503T224959
+[2026-05-03T22:49:59.447+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-05-03T22:49:59.447+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-05-03T22:49:59.448+0000] {logging_mixin.py:190} INFO - Dag name:sqs_inference_dispatch queued_at:2026-05-03 22:49:55.376261+00:00
+[2026-05-03T22:49:59.448+0000] {logging_mixin.py:190} INFO - Task hostname:ip-172-31-33-18.ec2.internal operator:PythonOperator
+[2026-05-03T22:49:59.479+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-03T22:49:59.489+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-03T22:49:59.489+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

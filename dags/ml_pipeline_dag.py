@@ -66,7 +66,7 @@ with DAG(
             "model_path": MODEL_PATH,
             "metrics_path": METRICS_PATH,
             "metadata_path": METADATA_PATH,
-            "bucket_name": "lab-3-bucket-mlops",
+            "bucket_name": "final-project-bucket-prob7276",
             "model_version": "{{ logical_date.strftime('%Y%m%d_%H%M%S') }}",
             "threshold": 0.94
         },

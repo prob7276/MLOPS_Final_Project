@@ -1,0 +1,147 @@
+[2026-05-04T00:20:02.790+0000] {executor_loader.py:258} INFO - Loaded executor: SequentialExecutor
+[2026-05-04T00:20:02.830+0000] {scheduler_job_runner.py:950} INFO - Starting the scheduler
+[2026-05-04T00:20:02.831+0000] {scheduler_job_runner.py:957} INFO - Processing each file at most -1 times
+[2026-05-04T00:20:02.842+0000] {manager.py:174} INFO - Launched DagFileProcessorManager with pid: 12604
+[2026-05-04T00:20:02.844+0000] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2026-05-04T00:20:02.848+0000] {settings.py:63} INFO - Configured default timezone UTC
+[2026-05-04T00:20:02.857+0000] {scheduler_job_runner.py:1972} INFO - Marked 1 SchedulerJob instances as failed
+[2026-05-04T00:20:02.893+0000] {manager.py:406} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+Dag run  in running state
+Dag information Queued at: 2026-05-04 00:21:46.765996+00:00 hash info: 790a217ed62764d314cb7606d9f6883c
+[2026-05-04T00:21:47.788+0000] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
+	<TaskInstance: ml_training_pipeline_v2.generate_data manual__2026-05-04T00:21:46.755929+00:00 [scheduled]>
+[2026-05-04T00:21:47.789+0000] {scheduler_job_runner.py:507} INFO - DAG ml_training_pipeline_v2 has 0/16 running and queued tasks
+[2026-05-04T00:21:47.789+0000] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+	<TaskInstance: ml_training_pipeline_v2.generate_data manual__2026-05-04T00:21:46.755929+00:00 [scheduled]>
+[2026-05-04T00:21:47.791+0000] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: ml_training_pipeline_v2.generate_data manual__2026-05-04T00:21:46.755929+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2026-05-04T00:21:47.791+0000] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='generate_data', run_id='manual__2026-05-04T00:21:46.755929+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 4 and queue default
+[2026-05-04T00:21:47.791+0000] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'generate_data', 'manual__2026-05-04T00:21:46.755929+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+[2026-05-04T00:21:47.796+0000] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'generate_data', 'manual__2026-05-04T00:21:46.755929+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+[2026-05-04T00:21:49.323+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-05-04T00:21:51.008+0000] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2026-05-04T00:21:51.012+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-05-04T00:21:51.013+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-05-04T00:21:51.034+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-05-04T00:21:51.037+0000] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-05-04T00:21:51.094+0000] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2026-05-04T00:21:51.128+0000] {task_command.py:467} INFO - Running <TaskInstance: ml_training_pipeline_v2.generate_data manual__2026-05-04T00:21:46.755929+00:00 [queued]> on host ip-172-31-33-18.ec2.internal
+[2026-05-04T00:21:51.956+0000] {scheduler_job_runner.py:776} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='generate_data', run_id='manual__2026-05-04T00:21:46.755929+00:00', try_number=1, map_index=-1)
+[2026-05-04T00:21:51.962+0000] {scheduler_job_runner.py:813} INFO - TaskInstance Finished: dag_id=ml_training_pipeline_v2, task_id=generate_data, run_id=manual__2026-05-04T00:21:46.755929+00:00, map_index=-1, run_start_date=2026-05-04 00:21:51.202649+00:00, run_end_date=2026-05-04 00:21:51.341652+00:00, run_duration=0.139003, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=41, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2026-05-04 00:21:47.790176+00:00, queued_by_job_id=40, pid=13388
+[2026-05-04T00:21:52.119+0000] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
+	<TaskInstance: ml_training_pipeline_v2.train_model manual__2026-05-04T00:21:46.755929+00:00 [scheduled]>
+[2026-05-04T00:21:52.120+0000] {scheduler_job_runner.py:507} INFO - DAG ml_training_pipeline_v2 has 0/16 running and queued tasks
+[2026-05-04T00:21:52.120+0000] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+	<TaskInstance: ml_training_pipeline_v2.train_model manual__2026-05-04T00:21:46.755929+00:00 [scheduled]>
+[2026-05-04T00:21:52.122+0000] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: ml_training_pipeline_v2.train_model manual__2026-05-04T00:21:46.755929+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2026-05-04T00:21:52.122+0000] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='train_model', run_id='manual__2026-05-04T00:21:46.755929+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 3 and queue default
+[2026-05-04T00:21:52.123+0000] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'train_model', 'manual__2026-05-04T00:21:46.755929+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+[2026-05-04T00:21:52.128+0000] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'train_model', 'manual__2026-05-04T00:21:46.755929+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+[2026-05-04T00:21:53.593+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-05-04T00:21:55.016+0000] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2026-05-04T00:21:55.019+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-05-04T00:21:55.020+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-05-04T00:21:55.039+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-05-04T00:21:55.042+0000] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-05-04T00:21:55.089+0000] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2026-05-04T00:21:55.116+0000] {task_command.py:467} INFO - Running <TaskInstance: ml_training_pipeline_v2.train_model manual__2026-05-04T00:21:46.755929+00:00 [queued]> on host ip-172-31-33-18.ec2.internal
+[2026-05-04T00:22:02.027+0000] {scheduler_job_runner.py:776} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='train_model', run_id='manual__2026-05-04T00:21:46.755929+00:00', try_number=1, map_index=-1)
+[2026-05-04T00:22:02.032+0000] {scheduler_job_runner.py:813} INFO - TaskInstance Finished: dag_id=ml_training_pipeline_v2, task_id=train_model, run_id=manual__2026-05-04T00:21:46.755929+00:00, map_index=-1, run_start_date=2026-05-04 00:21:55.155654+00:00, run_end_date=2026-05-04 00:22:01.420714+00:00, run_duration=6.26506, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=42, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2026-05-04 00:21:52.121514+00:00, queued_by_job_id=40, pid=13446
+[2026-05-04T00:22:02.195+0000] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
+	<TaskInstance: ml_training_pipeline_v2.evaluate_model manual__2026-05-04T00:21:46.755929+00:00 [scheduled]>
+[2026-05-04T00:22:02.196+0000] {scheduler_job_runner.py:507} INFO - DAG ml_training_pipeline_v2 has 0/16 running and queued tasks
+[2026-05-04T00:22:02.196+0000] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+	<TaskInstance: ml_training_pipeline_v2.evaluate_model manual__2026-05-04T00:21:46.755929+00:00 [scheduled]>
+[2026-05-04T00:22:02.197+0000] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: ml_training_pipeline_v2.evaluate_model manual__2026-05-04T00:21:46.755929+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2026-05-04T00:22:02.197+0000] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='evaluate_model', run_id='manual__2026-05-04T00:21:46.755929+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2026-05-04T00:22:02.198+0000] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'evaluate_model', 'manual__2026-05-04T00:21:46.755929+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+[2026-05-04T00:22:02.203+0000] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'evaluate_model', 'manual__2026-05-04T00:21:46.755929+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+[2026-05-04T00:22:03.710+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-05-04T00:22:05.075+0000] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2026-05-04T00:22:05.078+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-05-04T00:22:05.079+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-05-04T00:22:05.097+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-05-04T00:22:05.098+0000] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-05-04T00:22:05.146+0000] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2026-05-04T00:22:05.172+0000] {task_command.py:467} INFO - Running <TaskInstance: ml_training_pipeline_v2.evaluate_model manual__2026-05-04T00:21:46.755929+00:00 [queued]> on host ip-172-31-33-18.ec2.internal
+[2026-05-04T00:22:05.900+0000] {scheduler_job_runner.py:776} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='evaluate_model', run_id='manual__2026-05-04T00:21:46.755929+00:00', try_number=1, map_index=-1)
+[2026-05-04T00:22:05.904+0000] {scheduler_job_runner.py:813} INFO - TaskInstance Finished: dag_id=ml_training_pipeline_v2, task_id=evaluate_model, run_id=manual__2026-05-04T00:21:46.755929+00:00, map_index=-1, run_start_date=2026-05-04 00:22:05.210928+00:00, run_end_date=2026-05-04 00:22:05.349472+00:00, run_duration=0.138544, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=43, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2026-05-04 00:22:02.196916+00:00, queued_by_job_id=40, pid=13509
+[2026-05-04T00:22:06.058+0000] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
+	<TaskInstance: ml_training_pipeline_v2.promote_model manual__2026-05-04T00:21:46.755929+00:00 [scheduled]>
+[2026-05-04T00:22:06.059+0000] {scheduler_job_runner.py:507} INFO - DAG ml_training_pipeline_v2 has 0/16 running and queued tasks
+[2026-05-04T00:22:06.059+0000] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+	<TaskInstance: ml_training_pipeline_v2.promote_model manual__2026-05-04T00:21:46.755929+00:00 [scheduled]>
+[2026-05-04T00:22:06.060+0000] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: ml_training_pipeline_v2.promote_model manual__2026-05-04T00:21:46.755929+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2026-05-04T00:22:06.060+0000] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='promote_model', run_id='manual__2026-05-04T00:21:46.755929+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+[2026-05-04T00:22:06.060+0000] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'promote_model', 'manual__2026-05-04T00:21:46.755929+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+[2026-05-04T00:22:06.065+0000] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'promote_model', 'manual__2026-05-04T00:21:46.755929+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+[2026-05-04T00:22:07.669+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_pipeline_dag.py
+[2026-05-04T00:22:09.511+0000] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2026-05-04T00:22:09.515+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-05-04T00:22:09.516+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-05-04T00:22:09.535+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-05-04T00:22:09.538+0000] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-05-04T00:22:09.585+0000] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2026-05-04T00:22:09.612+0000] {task_command.py:467} INFO - Running <TaskInstance: ml_training_pipeline_v2.promote_model manual__2026-05-04T00:21:46.755929+00:00 [queued]> on host ip-172-31-33-18.ec2.internal
+[2026-05-04T00:22:10.846+0000] {scheduler_job_runner.py:776} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='promote_model', run_id='manual__2026-05-04T00:21:46.755929+00:00', try_number=1, map_index=-1)
+[2026-05-04T00:22:10.849+0000] {scheduler_job_runner.py:813} INFO - TaskInstance Finished: dag_id=ml_training_pipeline_v2, task_id=promote_model, run_id=manual__2026-05-04T00:21:46.755929+00:00, map_index=-1, run_start_date=2026-05-04 00:22:09.651012+00:00, run_end_date=2026-05-04 00:22:10.204000+00:00, run_duration=0.552988, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=44, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2026-05-04 00:22:06.059715+00:00, queued_by_job_id=40, pid=13560
+[2026-05-04T00:22:10.996+0000] {dagrun.py:854} INFO - Marking run <DagRun ml_training_pipeline_v2 @ 2026-05-04 00:21:46.755929+00:00: manual__2026-05-04T00:21:46.755929+00:00, state:running, queued_at: 2026-05-04 00:21:46.765996+00:00. externally triggered: True> successful
+Dag run in success state
+Dag run start:2026-05-04 00:21:47.753065+00:00 end:2026-05-04 00:22:10.996703+00:00
+[2026-05-04T00:22:10.996+0000] {dagrun.py:905} INFO - DagRun Finished: dag_id=ml_training_pipeline_v2, execution_date=2026-05-04 00:21:46.755929+00:00, run_id=manual__2026-05-04T00:21:46.755929+00:00, run_start_date=2026-05-04 00:21:47.753065+00:00, run_end_date=2026-05-04 00:22:10.996703+00:00, run_duration=23.243638, state=success, external_trigger=True, run_type=manual, data_interval_start=2026-05-04 00:21:46.755929+00:00, data_interval_end=2026-05-04 00:21:46.755929+00:00, dag_hash=790a217ed62764d314cb7606d9f6883c
+Dag run  in running state
+Dag information Queued at: 2026-05-04 00:22:19.258370+00:00 hash info: 9746b195ebd18763c2db0db4c2c17ac0
+[2026-05-04T00:22:20.572+0000] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
+	<TaskInstance: sqs_inference_dispatch.dispatch_messages manual__2026-05-04T00:22:19.243001+00:00 [scheduled]>
+[2026-05-04T00:22:20.572+0000] {scheduler_job_runner.py:507} INFO - DAG sqs_inference_dispatch has 0/16 running and queued tasks
+[2026-05-04T00:22:20.573+0000] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+	<TaskInstance: sqs_inference_dispatch.dispatch_messages manual__2026-05-04T00:22:19.243001+00:00 [scheduled]>
+[2026-05-04T00:22:20.574+0000] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: sqs_inference_dispatch.dispatch_messages manual__2026-05-04T00:22:19.243001+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2026-05-04T00:22:20.575+0000] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='sqs_inference_dispatch', task_id='dispatch_messages', run_id='manual__2026-05-04T00:22:19.243001+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+[2026-05-04T00:22:20.575+0000] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'sqs_inference_dispatch', 'dispatch_messages', 'manual__2026-05-04T00:22:19.243001+00:00', '--local', '--subdir', 'DAGS_FOLDER/sqs_dispatch_dag.py']
+[2026-05-04T00:22:20.580+0000] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'sqs_inference_dispatch', 'dispatch_messages', 'manual__2026-05-04T00:22:19.243001+00:00', '--local', '--subdir', 'DAGS_FOLDER/sqs_dispatch_dag.py']
+[2026-05-04T00:22:22.275+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-04T00:22:22.672+0000] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2026-05-04T00:22:22.676+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-05-04T00:22:22.677+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-05-04T00:22:22.695+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-05-04T00:22:22.698+0000] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-05-04T00:22:22.745+0000] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2026-05-04T00:22:22.772+0000] {task_command.py:467} INFO - Running <TaskInstance: sqs_inference_dispatch.dispatch_messages manual__2026-05-04T00:22:19.243001+00:00 [queued]> on host ip-172-31-33-18.ec2.internal
+[2026-05-04T00:22:23.945+0000] {scheduler_job_runner.py:776} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='sqs_inference_dispatch', task_id='dispatch_messages', run_id='manual__2026-05-04T00:22:19.243001+00:00', try_number=1, map_index=-1)
+[2026-05-04T00:22:23.949+0000] {scheduler_job_runner.py:813} INFO - TaskInstance Finished: dag_id=sqs_inference_dispatch, task_id=dispatch_messages, run_id=manual__2026-05-04T00:22:19.243001+00:00, map_index=-1, run_start_date=2026-05-04 00:22:22.809678+00:00, run_end_date=2026-05-04 00:22:23.450917+00:00, run_duration=0.641239, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=45, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2026-05-04 00:22:20.573896+00:00, queued_by_job_id=40, pid=13642
+[2026-05-04T00:22:24.095+0000] {dagrun.py:854} INFO - Marking run <DagRun sqs_inference_dispatch @ 2026-05-04 00:22:19.243001+00:00: manual__2026-05-04T00:22:19.243001+00:00, state:running, queued_at: 2026-05-04 00:22:19.258370+00:00. externally triggered: True> successful
+Dag run in success state
+Dag run start:2026-05-04 00:22:20.547824+00:00 end:2026-05-04 00:22:24.095825+00:00
+[2026-05-04T00:22:24.095+0000] {dagrun.py:905} INFO - DagRun Finished: dag_id=sqs_inference_dispatch, execution_date=2026-05-04 00:22:19.243001+00:00, run_id=manual__2026-05-04T00:22:19.243001+00:00, run_start_date=2026-05-04 00:22:20.547824+00:00, run_end_date=2026-05-04 00:22:24.095825+00:00, run_duration=3.548001, state=success, external_trigger=True, run_type=manual, data_interval_start=2026-05-04 00:22:19.243001+00:00, data_interval_end=2026-05-04 00:22:19.243001+00:00, dag_hash=9746b195ebd18763c2db0db4c2c17ac0
+[2026-05-04T00:25:03.114+0000] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2026-05-04T00:30:03.260+0000] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2026-05-04T00:35:03.398+0000] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2026-05-04T00:40:04.242+0000] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2026-05-04T00:45:04.378+0000] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2026-05-04T00:50:04.514+0000] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2026-05-04T00:55:05.333+0000] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2026-05-04T01:00:05.470+0000] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2026-05-04T01:05:05.614+0000] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2026-05-04T01:10:06.393+0000] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2026-05-04T01:15:06.734+0000] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2026-05-04T01:20:06.748+0000] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
