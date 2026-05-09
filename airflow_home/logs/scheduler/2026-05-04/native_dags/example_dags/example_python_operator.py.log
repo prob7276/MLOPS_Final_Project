@@ -470,3 +470,19 @@
 [2026-05-04T01:24:29.952+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:24:29.951+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-05-04T01:24:29.962+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:24:29.962+0000] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
 [2026-05-04T01:24:29.980+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.057 seconds
+[2026-05-04T01:25:36.651+0000] {processor.py:186} INFO - Started process (PID=31262) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-05-04T01:25:36.653+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-05-04T01:25:36.655+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:25:36.654+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-05-04T01:25:36.662+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:25:36.662+0000] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-05-04T01:25:36.664+0000] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-05-04T01:25:36.682+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:25:36.682+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:25:36.696+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:25:36.696+0000] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-05-04T01:25:36.715+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.069 seconds
+[2026-05-04T01:26:43.934+0000] {processor.py:186} INFO - Started process (PID=31468) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-05-04T01:26:43.935+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-05-04T01:26:43.937+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:26:43.936+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-05-04T01:26:43.942+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:26:43.942+0000] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-05-04T01:26:43.944+0000] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-05-04T01:26:43.957+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:26:43.957+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:26:43.968+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:26:43.967+0000] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-05-04T01:26:43.986+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.056 seconds

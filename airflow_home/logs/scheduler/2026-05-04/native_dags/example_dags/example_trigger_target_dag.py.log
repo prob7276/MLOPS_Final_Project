@@ -404,3 +404,17 @@
 [2026-05-04T01:23:47.798+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:23:47.798+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-05-04T01:23:47.812+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:23:47.812+0000] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
 [2026-05-04T01:23:47.832+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.066 seconds
+[2026-05-04T01:24:52.641+0000] {processor.py:186} INFO - Started process (PID=31172) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2026-05-04T01:24:52.642+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2026-05-04T01:24:52.644+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:24:52.644+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2026-05-04T01:24:52.653+0000] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2026-05-04T01:24:52.668+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:24:52.668+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:24:52.682+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:24:52.682+0000] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2026-05-04T01:24:52.707+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.070 seconds
+[2026-05-04T01:26:00.735+0000] {processor.py:186} INFO - Started process (PID=31320) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2026-05-04T01:26:00.736+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2026-05-04T01:26:00.738+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:26:00.738+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2026-05-04T01:26:00.747+0000] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2026-05-04T01:26:00.763+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:26:00.762+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:26:00.777+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:26:00.777+0000] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2026-05-04T01:26:00.798+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.067 seconds

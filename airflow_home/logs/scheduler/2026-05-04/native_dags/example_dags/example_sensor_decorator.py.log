@@ -411,3 +411,17 @@
 [2026-05-04T01:24:30.351+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:24:30.351+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-05-04T01:24:30.361+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:24:30.361+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
 [2026-05-04T01:24:30.379+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.052 seconds
+[2026-05-04T01:25:37.793+0000] {processor.py:186} INFO - Started process (PID=31269) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-05-04T01:25:37.795+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-05-04T01:25:37.796+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:25:37.796+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-05-04T01:25:37.803+0000] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-05-04T01:25:37.815+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:25:37.815+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:25:37.825+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:25:37.825+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-05-04T01:25:37.842+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.053 seconds
+[2026-05-04T01:26:45.077+0000] {processor.py:186} INFO - Started process (PID=31469) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-05-04T01:26:45.078+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-05-04T01:26:45.079+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:26:45.079+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-05-04T01:26:45.086+0000] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-05-04T01:26:45.097+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:26:45.097+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:26:45.108+0000] {logging_mixin.py:190} INFO - [2026-05-04T01:26:45.108+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-05-04T01:26:45.126+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.054 seconds

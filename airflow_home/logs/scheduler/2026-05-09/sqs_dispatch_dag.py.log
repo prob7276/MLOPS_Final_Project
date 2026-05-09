@@ -1,0 +1,651 @@
+[2026-05-09T18:54:03.079+0000] {processor.py:186} INFO - Started process (PID=18616) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:54:03.079+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T18:54:03.081+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:54:03.080+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:54:03.140+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:54:03.155+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:54:03.154+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T18:54:03.164+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:54:03.164+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T18:54:03.183+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.109 seconds
+[2026-05-09T18:55:23.798+0000] {processor.py:186} INFO - Started process (PID=19180) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:55:23.800+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T18:55:23.802+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:55:23.801+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:55:23.861+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:55:23.872+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:55:23.871+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T18:55:23.882+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:55:23.882+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T18:55:23.902+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.108 seconds
+[2026-05-09T18:55:56.794+0000] {processor.py:186} INFO - Started process (PID=19348) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:55:56.794+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T18:55:56.796+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:55:56.796+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:55:56.856+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:55:56.867+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:55:56.867+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T18:55:56.876+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:55:56.876+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T18:55:56.894+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.104 seconds
+[2026-05-09T18:56:29.334+0000] {processor.py:186} INFO - Started process (PID=19561) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:56:29.335+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T18:56:29.336+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:56:29.336+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:56:29.395+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:56:29.406+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:56:29.406+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T18:56:29.416+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:56:29.415+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T18:56:29.433+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.104 seconds
+[2026-05-09T18:57:03.138+0000] {processor.py:186} INFO - Started process (PID=19685) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:57:03.139+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T18:57:03.141+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:57:03.140+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:57:03.217+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:57:03.230+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:57:03.229+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T18:57:03.239+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:57:03.238+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T18:57:03.258+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.124 seconds
+[2026-05-09T18:57:36.921+0000] {processor.py:186} INFO - Started process (PID=19905) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:57:36.922+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T18:57:36.923+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:57:36.923+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:57:36.983+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:57:36.994+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:57:36.994+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T18:57:37.004+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:57:37.004+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T18:57:37.023+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.107 seconds
+[2026-05-09T18:58:11.157+0000] {processor.py:186} INFO - Started process (PID=20084) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:58:11.158+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T18:58:11.160+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:58:11.160+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:58:11.220+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:58:11.231+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:58:11.231+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T18:58:11.242+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:58:11.242+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T18:58:11.259+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.107 seconds
+[2026-05-09T18:58:44.498+0000] {processor.py:186} INFO - Started process (PID=20305) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:58:44.499+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T18:58:44.501+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:58:44.500+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:58:44.560+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:58:44.572+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:58:44.571+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T18:58:44.581+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:58:44.581+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T18:58:44.599+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.106 seconds
+[2026-05-09T18:59:17.595+0000] {processor.py:186} INFO - Started process (PID=20426) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:59:17.596+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T18:59:17.597+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:59:17.597+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:59:17.656+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T18:59:17.666+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:59:17.666+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T18:59:17.677+0000] {logging_mixin.py:190} INFO - [2026-05-09T18:59:17.676+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T18:59:17.694+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.103 seconds
+[2026-05-09T19:00:20.508+0000] {processor.py:186} INFO - Started process (PID=20691) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:00:20.509+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:00:20.510+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:00:20.510+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:00:20.570+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:00:20.582+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:00:20.581+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:00:20.591+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:00:20.591+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:00:20.609+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.106 seconds
+[2026-05-09T19:00:53.079+0000] {processor.py:186} INFO - Started process (PID=20888) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:00:53.079+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:00:53.081+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:00:53.081+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:00:53.143+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:00:53.157+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:00:53.157+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:00:53.171+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:00:53.171+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:00:53.200+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.125 seconds
+[2026-05-09T19:01:25.912+0000] {processor.py:186} INFO - Started process (PID=21102) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:01:25.913+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:01:25.915+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:01:25.915+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:01:25.974+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:01:25.985+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:01:25.985+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:01:25.994+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:01:25.994+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:01:26.013+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.105 seconds
+[2026-05-09T19:01:58.232+0000] {processor.py:186} INFO - Started process (PID=21219) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:01:58.232+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:01:58.234+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:01:58.234+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:01:58.293+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:01:58.303+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:01:58.303+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:01:58.313+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:01:58.313+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:01:58.330+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.103 seconds
+[2026-05-09T19:02:59.766+0000] {processor.py:186} INFO - Started process (PID=21587) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:02:59.767+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:02:59.769+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:02:59.769+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:02:59.827+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:02:59.838+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:02:59.837+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:02:59.847+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:02:59.847+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:02:59.864+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.102 seconds
+[2026-05-09T19:03:32.411+0000] {processor.py:186} INFO - Started process (PID=21737) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:03:32.412+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:03:32.414+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:03:32.414+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:03:32.473+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:03:32.484+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:03:32.484+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:03:32.493+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:03:32.493+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:03:32.513+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.106 seconds
+[2026-05-09T19:04:37.216+0000] {processor.py:186} INFO - Started process (PID=22164) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:04:37.217+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:04:37.219+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:04:37.219+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:04:37.278+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:04:37.288+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:04:37.288+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:04:37.297+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:04:37.297+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:04:37.315+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.104 seconds
+[2026-05-09T19:05:37.746+0000] {processor.py:186} INFO - Started process (PID=22532) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:05:37.747+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:05:37.749+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:05:37.749+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:05:37.808+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:05:37.819+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:05:37.819+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:05:37.828+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:05:37.828+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:05:37.846+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.104 seconds
+[2026-05-09T19:06:41.837+0000] {processor.py:186} INFO - Started process (PID=22849) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:06:41.838+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:06:41.840+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:06:41.840+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:06:41.900+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:06:41.912+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:06:41.912+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:06:41.922+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:06:41.921+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:06:41.940+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.108 seconds
+[2026-05-09T19:07:15.190+0000] {processor.py:186} INFO - Started process (PID=23037) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:07:15.191+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:07:15.193+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:07:15.193+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:07:15.253+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:07:15.263+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:07:15.263+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:07:15.273+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:07:15.273+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:07:15.291+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.106 seconds
+[2026-05-09T19:07:47.011+0000] {processor.py:186} INFO - Started process (PID=23175) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:07:47.011+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:07:47.012+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:07:47.012+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:07:47.072+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:07:47.082+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:07:47.082+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:07:47.092+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:07:47.092+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:07:47.110+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.105 seconds
+[2026-05-09T19:08:20.004+0000] {processor.py:186} INFO - Started process (PID=23304) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:08:20.006+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:08:20.007+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:08:20.007+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:08:20.066+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:08:20.077+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:08:20.077+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:08:20.087+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:08:20.086+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:08:20.104+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.104 seconds
+[2026-05-09T19:09:23.685+0000] {processor.py:186} INFO - Started process (PID=23645) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:09:23.687+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:09:23.688+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:09:23.688+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:09:23.763+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:09:23.775+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:09:23.775+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:09:23.789+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:09:23.789+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:09:23.809+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.128 seconds
+[2026-05-09T19:09:56.344+0000] {processor.py:186} INFO - Started process (PID=23821) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:09:56.344+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:09:56.346+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:09:56.346+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:09:56.406+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:09:56.417+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:09:56.417+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:09:56.427+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:09:56.427+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:09:56.445+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.105 seconds
+[2026-05-09T19:10:29.676+0000] {processor.py:186} INFO - Started process (PID=24058) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:10:29.677+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:10:29.679+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:10:29.679+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:10:29.733+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:10:29.744+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:10:29.744+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:10:29.753+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:10:29.753+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:10:29.771+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.100 seconds
+[2026-05-09T19:11:01.871+0000] {processor.py:186} INFO - Started process (PID=24206) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:11:01.871+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:11:01.873+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:11:01.873+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:11:01.930+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:11:01.942+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:11:01.942+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:11:01.951+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:11:01.951+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:11:01.969+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.103 seconds
+[2026-05-09T19:11:37.377+0000] {processor.py:186} INFO - Started process (PID=24438) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:11:37.379+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:11:37.380+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:11:37.380+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:11:37.434+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:11:37.444+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:11:37.444+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:11:37.453+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:11:37.453+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:11:37.471+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.098 seconds
+[2026-05-09T19:12:11.850+0000] {processor.py:186} INFO - Started process (PID=24565) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:12:11.852+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:12:11.853+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:12:11.853+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:12:11.907+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:12:11.918+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:12:11.917+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:12:11.928+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:12:11.928+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:12:11.946+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.100 seconds
+[2026-05-09T19:12:45.262+0000] {processor.py:186} INFO - Started process (PID=24811) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:12:45.263+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:12:45.265+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:12:45.265+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:12:45.318+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:12:45.330+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:12:45.330+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:12:45.339+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:12:45.339+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:12:45.356+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.098 seconds
+[2026-05-09T19:13:17.760+0000] {processor.py:186} INFO - Started process (PID=24992) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:13:17.761+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:13:17.762+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:13:17.762+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:13:17.817+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:13:17.827+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:13:17.827+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:13:17.837+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:13:17.837+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:13:17.855+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.099 seconds
+[2026-05-09T19:13:50.914+0000] {processor.py:186} INFO - Started process (PID=25106) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:13:50.915+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:13:50.917+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:13:50.917+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:13:50.972+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:13:50.982+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:13:50.982+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:13:50.993+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:13:50.992+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:13:51.011+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.102 seconds
+[2026-05-09T19:14:23.336+0000] {processor.py:186} INFO - Started process (PID=25350) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:14:23.336+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:14:23.338+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:14:23.338+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:14:23.393+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:14:23.403+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:14:23.403+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:14:23.413+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:14:23.413+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:14:23.431+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.100 seconds
+[2026-05-09T19:14:55.929+0000] {processor.py:186} INFO - Started process (PID=25498) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:14:55.930+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:14:55.932+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:14:55.931+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:14:55.986+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:14:55.997+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:14:55.997+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:14:56.007+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:14:56.007+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:14:56.027+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.103 seconds
+[2026-05-09T19:15:30.162+0000] {processor.py:186} INFO - Started process (PID=25653) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:15:30.164+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:15:30.165+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:15:30.165+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:15:30.220+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:15:30.231+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:15:30.231+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:15:30.240+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:15:30.240+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:15:30.258+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.100 seconds
+[2026-05-09T19:16:03.286+0000] {processor.py:186} INFO - Started process (PID=25808) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:16:03.287+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:16:03.289+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:16:03.289+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:16:03.345+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:16:03.356+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:16:03.356+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:16:03.365+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:16:03.365+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:16:03.384+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.102 seconds
+[2026-05-09T19:16:35.911+0000] {processor.py:186} INFO - Started process (PID=25937) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:16:35.912+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:16:35.913+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:16:35.913+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:16:35.967+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:16:35.978+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:16:35.978+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:16:35.988+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:16:35.988+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:16:36.006+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.099 seconds
+[2026-05-09T19:17:08.223+0000] {processor.py:186} INFO - Started process (PID=26093) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:17:08.224+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:17:08.225+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:17:08.225+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:17:08.280+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:17:08.291+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:17:08.291+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:17:08.301+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:17:08.300+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:17:08.319+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.101 seconds
+[2026-05-09T19:17:41.664+0000] {processor.py:186} INFO - Started process (PID=26325) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:17:41.665+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:17:41.666+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:17:41.666+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:17:41.721+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:17:41.732+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:17:41.732+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:17:41.743+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:17:41.743+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:17:41.761+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.101 seconds
+[2026-05-09T19:18:44.403+0000] {processor.py:186} INFO - Started process (PID=26788) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:18:44.404+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:18:44.406+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:18:44.406+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:18:44.460+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:18:44.471+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:18:44.471+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:18:44.480+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:18:44.480+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:18:44.497+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.099 seconds
+[2026-05-09T19:19:17.699+0000] {processor.py:186} INFO - Started process (PID=26943) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:19:17.700+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:19:17.702+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:19:17.701+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:19:17.755+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:19:17.766+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:19:17.766+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:19:17.777+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:19:17.777+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:19:17.795+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.100 seconds
+[2026-05-09T19:19:51.286+0000] {processor.py:186} INFO - Started process (PID=27171) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:19:51.287+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:19:51.289+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:19:51.289+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:19:51.343+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:19:51.354+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:19:51.353+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:19:51.362+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:19:51.362+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:19:51.381+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.099 seconds
+[2026-05-09T19:20:56.484+0000] {processor.py:186} INFO - Started process (PID=27427) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:20:56.485+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:20:56.487+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:20:56.486+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:20:56.541+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:20:56.553+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:20:56.553+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:20:56.564+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:20:56.564+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:20:56.584+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.105 seconds
+[2026-05-09T19:21:29.316+0000] {processor.py:186} INFO - Started process (PID=27540) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:21:29.317+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:21:29.318+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:21:29.318+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:21:29.371+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:21:29.382+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:21:29.382+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:21:29.391+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:21:29.391+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:21:29.408+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.097 seconds
+[2026-05-09T19:22:36.261+0000] {processor.py:186} INFO - Started process (PID=27702) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:22:36.263+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:22:36.264+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:22:36.264+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:22:36.317+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:22:36.328+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:22:36.328+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:22:36.337+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:22:36.337+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:22:36.354+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.097 seconds
+[2026-05-09T19:23:11.303+0000] {processor.py:186} INFO - Started process (PID=27751) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:23:11.305+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:23:11.306+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:23:11.306+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:23:11.361+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:23:11.372+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:23:11.372+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:23:11.381+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:23:11.381+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:23:11.400+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.101 seconds
+[2026-05-09T19:23:44.763+0000] {processor.py:186} INFO - Started process (PID=27843) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:23:44.764+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:23:44.765+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:23:44.765+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:23:44.819+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:23:44.829+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:23:44.829+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:23:44.839+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:23:44.839+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:23:44.856+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.097 seconds
+[2026-05-09T19:24:17.704+0000] {processor.py:186} INFO - Started process (PID=27890) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:24:17.706+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:24:17.707+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:24:17.707+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:24:17.761+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:24:17.772+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:24:17.772+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:24:17.781+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:24:17.781+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:24:17.799+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.099 seconds
+[2026-05-09T19:25:18.220+0000] {processor.py:186} INFO - Started process (PID=27972) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:25:18.221+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:25:18.222+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:25:18.222+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:25:18.276+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:25:18.286+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:25:18.286+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:25:18.296+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:25:18.296+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:25:18.312+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.097 seconds
+[2026-05-09T19:26:19.616+0000] {processor.py:186} INFO - Started process (PID=28103) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:26:19.617+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:26:19.619+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:26:19.619+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:26:19.672+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:26:19.683+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:26:19.683+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:26:19.693+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:26:19.693+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:26:19.710+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.098 seconds
+[2026-05-09T19:27:20.618+0000] {processor.py:186} INFO - Started process (PID=28187) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:27:20.619+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:27:20.621+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:27:20.620+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:27:20.674+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:27:20.685+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:27:20.684+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:27:20.695+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:27:20.695+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:27:20.713+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.099 seconds
+[2026-05-09T19:28:23.138+0000] {processor.py:186} INFO - Started process (PID=28324) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:28:23.140+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:28:23.141+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:28:23.141+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:28:23.194+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:28:23.205+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:28:23.205+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:28:23.214+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:28:23.214+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:28:23.232+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.098 seconds
+[2026-05-09T19:29:22.197+0000] {processor.py:186} INFO - Started process (PID=28456) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:29:22.198+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:29:22.199+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:29:22.199+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:29:22.253+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:29:22.264+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:29:22.264+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:29:22.273+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:29:22.272+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:29:22.290+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.097 seconds
+[2026-05-09T19:30:25.064+0000] {processor.py:186} INFO - Started process (PID=29028) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:30:25.065+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:30:25.067+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:30:25.067+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:30:25.122+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:30:25.133+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:30:25.132+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:30:25.142+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:30:25.142+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:30:25.161+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.101 seconds
+[2026-05-09T19:30:57.847+0000] {processor.py:186} INFO - Started process (PID=29247) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:30:57.848+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:30:57.849+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:30:57.849+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:30:57.904+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:30:57.914+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:30:57.914+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:30:57.923+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:30:57.923+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:30:57.941+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.098 seconds
+[2026-05-09T19:31:30.750+0000] {processor.py:186} INFO - Started process (PID=29524) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:31:30.751+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:31:30.752+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:31:30.752+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:31:30.807+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:31:30.817+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:31:30.817+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:31:30.827+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:31:30.827+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:31:30.845+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.101 seconds
+[2026-05-09T19:32:30.803+0000] {processor.py:186} INFO - Started process (PID=29968) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:32:30.804+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:32:30.806+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:32:30.806+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:32:30.860+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:32:30.871+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:32:30.871+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:32:30.881+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:32:30.881+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:32:31.003+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.204 seconds
+[2026-05-09T19:33:03.599+0000] {processor.py:186} INFO - Started process (PID=30196) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:33:03.599+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:33:03.601+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:33:03.601+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:33:03.657+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:33:03.668+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:33:03.667+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:33:03.678+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:33:03.678+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:33:03.697+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.103 seconds
+[2026-05-09T19:33:36.638+0000] {processor.py:186} INFO - Started process (PID=30435) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:33:36.639+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:33:36.640+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:33:36.640+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:33:36.707+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:33:36.720+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:33:36.720+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:33:36.731+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:33:36.731+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:33:36.749+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.116 seconds
+[2026-05-09T19:34:41.230+0000] {processor.py:186} INFO - Started process (PID=30812) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:34:41.231+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:34:41.233+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:34:41.232+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:34:41.289+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:34:41.301+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:34:41.300+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:34:41.310+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:34:41.310+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:34:41.329+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.103 seconds
+[2026-05-09T19:35:16.174+0000] {processor.py:186} INFO - Started process (PID=31020) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:35:16.175+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:35:16.177+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:35:16.177+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:35:16.235+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:35:16.245+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:35:16.245+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:35:16.255+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:35:16.255+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:35:16.272+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.103 seconds
+[2026-05-09T19:35:49.536+0000] {processor.py:186} INFO - Started process (PID=31288) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:35:49.536+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:35:49.538+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:35:49.538+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:35:49.591+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:35:49.602+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:35:49.602+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:35:49.612+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:35:49.611+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:35:49.629+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.098 seconds
+[2026-05-09T19:36:23.151+0000] {processor.py:186} INFO - Started process (PID=31544) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:36:23.152+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:36:23.154+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:36:23.153+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:36:23.208+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:36:23.219+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:36:23.219+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:36:23.228+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:36:23.228+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:36:23.247+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.100 seconds
+[2026-05-09T19:37:23.914+0000] {processor.py:186} INFO - Started process (PID=31934) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:37:23.915+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:37:23.917+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:37:23.917+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:37:23.972+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:37:24.094+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:37:24.093+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:37:24.102+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:37:24.102+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:37:24.119+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.209 seconds
+[2026-05-09T19:37:57.495+0000] {processor.py:186} INFO - Started process (PID=31973) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:37:57.496+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:37:57.497+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:37:57.497+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:37:57.551+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:37:57.562+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:37:57.562+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:37:57.572+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:37:57.572+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:37:57.697+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.206 seconds
+[2026-05-09T19:38:31.755+0000] {processor.py:186} INFO - Started process (PID=32104) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:38:31.755+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:38:31.758+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:38:31.757+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:38:31.811+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:38:31.926+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:38:31.925+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:38:31.934+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:38:31.934+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:38:31.952+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.202 seconds
+[2026-05-09T19:39:06.092+0000] {processor.py:186} INFO - Started process (PID=32157) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:39:06.093+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:39:06.095+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:39:06.094+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:39:06.149+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:39:06.160+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:39:06.160+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:39:06.170+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:39:06.170+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:39:06.188+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.101 seconds
+[2026-05-09T19:39:40.122+0000] {processor.py:186} INFO - Started process (PID=32235) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:39:40.123+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:39:40.125+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:39:40.124+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:39:40.178+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:39:40.189+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:39:40.189+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:39:40.303+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:39:40.302+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:39:40.320+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.203 seconds
+[2026-05-09T19:40:13.991+0000] {processor.py:186} INFO - Started process (PID=32286) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:40:13.992+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:40:13.994+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:40:13.994+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:40:14.155+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:40:14.164+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:40:14.164+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:40:14.172+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:40:14.172+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:40:14.190+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.203 seconds
+[2026-05-09T19:40:49.151+0000] {processor.py:186} INFO - Started process (PID=32379) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:40:49.152+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:40:49.154+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:40:49.154+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:40:49.208+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:40:49.218+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:40:49.218+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:40:49.229+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:40:49.228+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:40:49.349+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.202 seconds
+[2026-05-09T19:41:23.351+0000] {processor.py:186} INFO - Started process (PID=32431) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:41:23.352+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:41:23.353+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:41:23.353+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:41:23.514+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:41:23.522+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:41:23.522+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:41:23.530+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:41:23.530+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:41:23.547+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.200 seconds
+[2026-05-09T19:41:55.661+0000] {processor.py:186} INFO - Started process (PID=32471) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:41:55.662+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:41:55.664+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:41:55.664+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:41:55.828+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:41:55.836+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:41:55.836+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:41:55.844+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:41:55.844+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:41:55.861+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.204 seconds
+[2026-05-09T19:42:29.145+0000] {processor.py:186} INFO - Started process (PID=32571) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:42:29.146+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:42:29.148+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:42:29.148+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:42:29.202+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:42:29.317+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:42:29.317+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:42:29.325+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:42:29.325+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:42:29.345+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.205 seconds
+[2026-05-09T19:43:04.242+0000] {processor.py:186} INFO - Started process (PID=32625) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:43:04.244+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:43:04.245+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:43:04.245+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:43:04.405+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:43:04.414+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:43:04.414+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:43:04.422+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:43:04.421+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:43:04.438+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.201 seconds
+[2026-05-09T19:43:36.907+0000] {processor.py:186} INFO - Started process (PID=32933) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:43:36.908+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:43:36.910+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:43:36.909+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:43:37.072+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:43:37.080+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:43:37.080+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:43:37.090+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:43:37.090+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:43:37.107+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.205 seconds
+[2026-05-09T19:44:42.334+0000] {processor.py:186} INFO - Started process (PID=33122) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:44:42.335+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:44:42.337+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:44:42.336+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:44:42.509+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:44:42.518+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:44:42.518+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:44:42.526+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:44:42.526+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:44:42.543+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.213 seconds
+[2026-05-09T19:45:47.022+0000] {processor.py:186} INFO - Started process (PID=33294) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:45:47.023+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:45:47.025+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:45:47.025+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:45:47.182+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:45:47.189+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:45:47.189+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:45:47.197+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:45:47.197+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:45:47.214+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.195 seconds
+[2026-05-09T19:46:21.890+0000] {processor.py:186} INFO - Started process (PID=33362) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:46:21.891+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:46:21.892+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:46:21.892+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:46:22.051+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:46:22.060+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:46:22.060+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:46:22.067+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:46:22.067+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:46:22.083+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.198 seconds
+[2026-05-09T19:46:56.621+0000] {processor.py:186} INFO - Started process (PID=33416) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:46:56.623+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:46:56.624+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:46:56.624+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:46:56.792+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:46:56.800+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:46:56.800+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:46:56.808+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:46:56.808+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:46:56.825+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.209 seconds
+[2026-05-09T19:47:31.854+0000] {processor.py:186} INFO - Started process (PID=33538) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:47:31.855+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:47:31.856+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:47:31.856+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:47:32.017+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:47:32.024+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:47:32.024+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:47:32.033+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:47:32.033+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:47:32.049+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.200 seconds
+[2026-05-09T19:48:04.613+0000] {processor.py:186} INFO - Started process (PID=33609) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:48:04.614+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:48:04.615+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:48:04.615+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:48:04.772+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:48:04.780+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:48:04.780+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:48:04.788+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:48:04.788+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:48:04.804+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.195 seconds
+[2026-05-09T19:48:38.896+0000] {processor.py:186} INFO - Started process (PID=33665) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:48:38.897+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:48:38.899+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:48:38.899+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:48:39.055+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:48:39.064+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:48:39.063+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:48:39.071+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:48:39.071+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:48:39.088+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.196 seconds
+[2026-05-09T19:49:52.925+0000] {processor.py:186} INFO - Started process (PID=33926) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:49:52.927+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:49:52.929+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:49:52.928+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:49:52.983+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:49:52.994+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:49:52.993+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:49:53.003+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:49:53.003+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:49:53.021+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.100 seconds
+[2026-05-09T19:50:38.167+0000] {processor.py:186} INFO - Started process (PID=34018) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:50:38.168+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:50:38.170+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:50:38.169+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:50:38.225+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:50:38.236+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:50:38.235+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:50:38.245+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:50:38.244+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:50:38.263+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.101 seconds
+[2026-05-09T19:51:38.695+0000] {processor.py:186} INFO - Started process (PID=34253) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:51:38.696+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:51:38.697+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:51:38.697+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:51:38.751+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:51:38.761+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:51:38.761+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:51:38.770+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:51:38.770+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:51:38.787+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.097 seconds
+[2026-05-09T19:52:40.238+0000] {processor.py:186} INFO - Started process (PID=34508) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:52:40.239+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:52:40.240+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:52:40.240+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:52:40.294+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:52:40.306+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:52:40.305+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:52:40.315+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:52:40.315+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:52:40.332+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.099 seconds
+[2026-05-09T19:53:13.364+0000] {processor.py:186} INFO - Started process (PID=34594) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:53:13.365+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:53:13.367+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:53:13.366+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:53:13.420+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:53:13.431+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:53:13.431+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:53:13.440+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:53:13.440+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:53:13.457+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.097 seconds
+[2026-05-09T19:53:46.354+0000] {processor.py:186} INFO - Started process (PID=34697) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:53:46.355+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:53:46.357+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:53:46.356+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:53:46.411+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:53:46.422+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:53:46.421+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:53:46.431+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:53:46.431+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:53:46.448+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.099 seconds
+[2026-05-09T19:54:49.066+0000] {processor.py:186} INFO - Started process (PID=34826) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:54:49.067+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:54:49.069+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:54:49.069+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:54:49.123+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:54:49.134+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:54:49.134+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:54:49.143+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:54:49.143+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:54:49.160+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.098 seconds
+[2026-05-09T19:55:21.987+0000] {processor.py:186} INFO - Started process (PID=34939) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:55:21.989+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:55:21.991+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:55:21.990+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:55:22.044+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:55:22.055+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:55:22.055+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:55:22.065+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:55:22.065+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:55:22.082+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.099 seconds
+[2026-05-09T19:55:56.815+0000] {processor.py:186} INFO - Started process (PID=34998) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:55:56.816+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:55:56.818+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:55:56.818+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:55:56.872+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:55:56.883+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:55:56.883+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:55:56.893+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:55:56.893+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:55:56.910+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.100 seconds
+[2026-05-09T19:56:30.382+0000] {processor.py:186} INFO - Started process (PID=35064) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:56:30.382+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:56:30.384+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:56:30.384+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:56:30.438+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:56:30.448+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:56:30.448+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:56:30.458+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:56:30.458+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:56:30.476+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.098 seconds
+[2026-05-09T19:57:04.043+0000] {processor.py:186} INFO - Started process (PID=35131) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:57:04.044+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:57:04.046+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:57:04.046+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:57:04.100+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:57:04.111+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:57:04.111+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:57:04.120+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:57:04.120+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:57:04.137+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.099 seconds
+[2026-05-09T19:58:07.038+0000] {processor.py:186} INFO - Started process (PID=35305) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:58:07.039+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:58:07.041+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:58:07.040+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:58:07.095+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:58:07.105+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:58:07.105+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:58:07.114+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:58:07.114+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:58:07.132+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.098 seconds
+[2026-05-09T19:59:11.071+0000] {processor.py:186} INFO - Started process (PID=35449) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:59:11.072+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py for tasks to queue
+[2026-05-09T19:59:11.073+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:59:11.073+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:59:11.129+0000] {processor.py:925} INFO - DAG(s) 'sqs_inference_dispatch' retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py
+[2026-05-09T19:59:11.140+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:59:11.140+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-09T19:59:11.150+0000] {logging_mixin.py:190} INFO - [2026-05-09T19:59:11.149+0000] {dag.py:4180} INFO - Setting next_dagrun for sqs_inference_dispatch to None, run_after=None
+[2026-05-09T19:59:11.167+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/sqs_dispatch_dag.py took 0.101 seconds

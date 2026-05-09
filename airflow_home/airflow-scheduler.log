@@ -219,3 +219,195 @@
 2026-05-04 01:10:06,393 INFO - Adopting or resetting orphaned tasks for active dag runs
 2026-05-04 01:15:06,734 INFO - Adopting or resetting orphaned tasks for active dag runs
 2026-05-04 01:20:06,748 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-05-04 01:25:06,885 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-05-09 18:54:00,773 INFO - Loaded executor: SequentialExecutor
+2026-05-09 18:54:00,805 INFO - Starting the scheduler
+2026-05-09 18:54:00,806 INFO - Processing each file at most -1 times
+2026-05-09 18:54:00,815 INFO - Launched DagFileProcessorManager with pid: 18569
+2026-05-09 18:54:00,817 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-05-09 18:54:00,820 INFO - Configured default timezone UTC
+2026-05-09 18:54:00,828 INFO - Marked 1 SchedulerJob instances as failed
+2026-05-09 18:54:22,534 INFO - 1 tasks up for execution:
+	<TaskInstance: ml_training_pipeline_v2.generate_data manual__2026-05-09T18:54:21.279861+00:00 [scheduled]>
+2026-05-09 18:54:22,534 INFO - DAG ml_training_pipeline_v2 has 0/16 running and queued tasks
+2026-05-09 18:54:22,534 INFO - Setting the following tasks to queued state:
+	<TaskInstance: ml_training_pipeline_v2.generate_data manual__2026-05-09T18:54:21.279861+00:00 [scheduled]>
+2026-05-09 18:54:22,537 INFO - Trying to enqueue tasks: [<TaskInstance: ml_training_pipeline_v2.generate_data manual__2026-05-09T18:54:21.279861+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2026-05-09 18:54:22,538 INFO - Sending TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='generate_data', run_id='manual__2026-05-09T18:54:21.279861+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 4 and queue default
+2026-05-09 18:54:22,538 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'generate_data', 'manual__2026-05-09T18:54:21.279861+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+2026-05-09 18:54:22,544 INFO - Executing command: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'generate_data', 'manual__2026-05-09T18:54:21.279861+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+2026-05-09 18:54:26,119 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='generate_data', run_id='manual__2026-05-09T18:54:21.279861+00:00', try_number=1, map_index=-1)
+2026-05-09 18:54:26,125 INFO - TaskInstance Finished: dag_id=ml_training_pipeline_v2, task_id=generate_data, run_id=manual__2026-05-09T18:54:21.279861+00:00, map_index=-1, run_start_date=2026-05-09 18:54:25.433380+00:00, run_end_date=2026-05-09 18:54:25.575703+00:00, run_duration=0.142323, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=47, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2026-05-09 18:54:22.535622+00:00, queued_by_job_id=46, pid=18741
+2026-05-09 18:54:26,273 INFO - 1 tasks up for execution:
+	<TaskInstance: ml_training_pipeline_v2.train_model manual__2026-05-09T18:54:21.279861+00:00 [scheduled]>
+2026-05-09 18:54:26,273 INFO - DAG ml_training_pipeline_v2 has 0/16 running and queued tasks
+2026-05-09 18:54:26,274 INFO - Setting the following tasks to queued state:
+	<TaskInstance: ml_training_pipeline_v2.train_model manual__2026-05-09T18:54:21.279861+00:00 [scheduled]>
+2026-05-09 18:54:26,275 INFO - Trying to enqueue tasks: [<TaskInstance: ml_training_pipeline_v2.train_model manual__2026-05-09T18:54:21.279861+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2026-05-09 18:54:26,276 INFO - Sending TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='train_model', run_id='manual__2026-05-09T18:54:21.279861+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 3 and queue default
+2026-05-09 18:54:26,276 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'train_model', 'manual__2026-05-09T18:54:21.279861+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+2026-05-09 18:54:26,283 INFO - Executing command: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'train_model', 'manual__2026-05-09T18:54:21.279861+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+2026-05-09 18:54:34,842 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='train_model', run_id='manual__2026-05-09T18:54:21.279861+00:00', try_number=1, map_index=-1)
+2026-05-09 18:54:34,845 INFO - TaskInstance Finished: dag_id=ml_training_pipeline_v2, task_id=train_model, run_id=manual__2026-05-09T18:54:21.279861+00:00, map_index=-1, run_start_date=2026-05-09 18:54:29.128268+00:00, run_end_date=2026-05-09 18:54:34.285908+00:00, run_duration=5.15764, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=48, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2026-05-09 18:54:26.274856+00:00, queued_by_job_id=46, pid=18754
+2026-05-09 18:54:35,005 INFO - 1 tasks up for execution:
+	<TaskInstance: ml_training_pipeline_v2.evaluate_model manual__2026-05-09T18:54:21.279861+00:00 [scheduled]>
+2026-05-09 18:54:35,006 INFO - DAG ml_training_pipeline_v2 has 0/16 running and queued tasks
+2026-05-09 18:54:35,006 INFO - Setting the following tasks to queued state:
+	<TaskInstance: ml_training_pipeline_v2.evaluate_model manual__2026-05-09T18:54:21.279861+00:00 [scheduled]>
+2026-05-09 18:54:35,007 INFO - Trying to enqueue tasks: [<TaskInstance: ml_training_pipeline_v2.evaluate_model manual__2026-05-09T18:54:21.279861+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2026-05-09 18:54:35,007 INFO - Sending TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='evaluate_model', run_id='manual__2026-05-09T18:54:21.279861+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2026-05-09 18:54:35,008 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'evaluate_model', 'manual__2026-05-09T18:54:21.279861+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+2026-05-09 18:54:35,013 INFO - Executing command: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'evaluate_model', 'manual__2026-05-09T18:54:21.279861+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+2026-05-09 18:54:38,624 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='evaluate_model', run_id='manual__2026-05-09T18:54:21.279861+00:00', try_number=1, map_index=-1)
+2026-05-09 18:54:38,628 INFO - TaskInstance Finished: dag_id=ml_training_pipeline_v2, task_id=evaluate_model, run_id=manual__2026-05-09T18:54:21.279861+00:00, map_index=-1, run_start_date=2026-05-09 18:54:37.912701+00:00, run_end_date=2026-05-09 18:54:38.063849+00:00, run_duration=0.151148, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=49, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2026-05-09 18:54:35.006938+00:00, queued_by_job_id=46, pid=18830
+2026-05-09 18:54:38,771 INFO - 1 tasks up for execution:
+	<TaskInstance: ml_training_pipeline_v2.promote_model manual__2026-05-09T18:54:21.279861+00:00 [scheduled]>
+2026-05-09 18:54:38,771 INFO - DAG ml_training_pipeline_v2 has 0/16 running and queued tasks
+2026-05-09 18:54:38,772 INFO - Setting the following tasks to queued state:
+	<TaskInstance: ml_training_pipeline_v2.promote_model manual__2026-05-09T18:54:21.279861+00:00 [scheduled]>
+2026-05-09 18:54:38,773 INFO - Trying to enqueue tasks: [<TaskInstance: ml_training_pipeline_v2.promote_model manual__2026-05-09T18:54:21.279861+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2026-05-09 18:54:38,773 INFO - Sending TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='promote_model', run_id='manual__2026-05-09T18:54:21.279861+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2026-05-09 18:54:38,773 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'promote_model', 'manual__2026-05-09T18:54:21.279861+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+2026-05-09 18:54:38,779 INFO - Executing command: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'promote_model', 'manual__2026-05-09T18:54:21.279861+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+2026-05-09 18:54:42,766 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='promote_model', run_id='manual__2026-05-09T18:54:21.279861+00:00', try_number=1, map_index=-1)
+2026-05-09 18:54:42,769 INFO - TaskInstance Finished: dag_id=ml_training_pipeline_v2, task_id=promote_model, run_id=manual__2026-05-09T18:54:21.279861+00:00, map_index=-1, run_start_date=2026-05-09 18:54:41.695543+00:00, run_end_date=2026-05-09 18:54:42.244748+00:00, run_duration=0.549205, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=50, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2026-05-09 18:54:38.772408+00:00, queued_by_job_id=46, pid=18872
+2026-05-09 18:54:43,012 INFO - Marking run <DagRun ml_training_pipeline_v2 @ 2026-05-09 18:54:21.279861+00:00: manual__2026-05-09T18:54:21.279861+00:00, state:running, queued_at: 2026-05-09 18:54:21.289674+00:00. externally triggered: True> successful
+2026-05-09 18:54:43,013 INFO - DagRun Finished: dag_id=ml_training_pipeline_v2, execution_date=2026-05-09 18:54:21.279861+00:00, run_id=manual__2026-05-09T18:54:21.279861+00:00, run_start_date=2026-05-09 18:54:22.499368+00:00, run_end_date=2026-05-09 18:54:43.013245+00:00, run_duration=20.513877, state=success, external_trigger=True, run_type=manual, data_interval_start=2026-05-09 18:54:21.279861+00:00, data_interval_end=2026-05-09 18:54:21.279861+00:00, dag_hash=790a217ed62764d314cb7606d9f6883c
+2026-05-09 18:54:53,072 INFO - 1 tasks up for execution:
+	<TaskInstance: sqs_inference_dispatch.dispatch_messages manual__2026-05-09T18:54:52.549780+00:00 [scheduled]>
+2026-05-09 18:54:53,072 INFO - DAG sqs_inference_dispatch has 0/16 running and queued tasks
+2026-05-09 18:54:53,072 INFO - Setting the following tasks to queued state:
+	<TaskInstance: sqs_inference_dispatch.dispatch_messages manual__2026-05-09T18:54:52.549780+00:00 [scheduled]>
+2026-05-09 18:54:53,074 INFO - Trying to enqueue tasks: [<TaskInstance: sqs_inference_dispatch.dispatch_messages manual__2026-05-09T18:54:52.549780+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2026-05-09 18:54:53,074 INFO - Sending TaskInstanceKey(dag_id='sqs_inference_dispatch', task_id='dispatch_messages', run_id='manual__2026-05-09T18:54:52.549780+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2026-05-09 18:54:53,074 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'sqs_inference_dispatch', 'dispatch_messages', 'manual__2026-05-09T18:54:52.549780+00:00', '--local', '--subdir', 'DAGS_FOLDER/sqs_dispatch_dag.py']
+2026-05-09 18:54:53,081 INFO - Executing command: ['airflow', 'tasks', 'run', 'sqs_inference_dispatch', 'dispatch_messages', 'manual__2026-05-09T18:54:52.549780+00:00', '--local', '--subdir', 'DAGS_FOLDER/sqs_dispatch_dag.py']
+2026-05-09 18:54:56,144 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='sqs_inference_dispatch', task_id='dispatch_messages', run_id='manual__2026-05-09T18:54:52.549780+00:00', try_number=1, map_index=-1)
+2026-05-09 18:54:56,148 INFO - TaskInstance Finished: dag_id=sqs_inference_dispatch, task_id=dispatch_messages, run_id=manual__2026-05-09T18:54:52.549780+00:00, map_index=-1, run_start_date=2026-05-09 18:54:55.018048+00:00, run_end_date=2026-05-09 18:54:55.728149+00:00, run_duration=0.710101, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=51, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2026-05-09 18:54:53.073182+00:00, queued_by_job_id=46, pid=18960
+2026-05-09 18:54:56,292 INFO - Marking run <DagRun sqs_inference_dispatch @ 2026-05-09 18:54:52.549780+00:00: manual__2026-05-09T18:54:52.549780+00:00, state:running, queued_at: 2026-05-09 18:54:52.557705+00:00. externally triggered: True> successful
+2026-05-09 18:54:56,292 INFO - DagRun Finished: dag_id=sqs_inference_dispatch, execution_date=2026-05-09 18:54:52.549780+00:00, run_id=manual__2026-05-09T18:54:52.549780+00:00, run_start_date=2026-05-09 18:54:53.050830+00:00, run_end_date=2026-05-09 18:54:56.292694+00:00, run_duration=3.241864, state=success, external_trigger=True, run_type=manual, data_interval_start=2026-05-09 18:54:52.549780+00:00, data_interval_end=2026-05-09 18:54:52.549780+00:00, dag_hash=9746b195ebd18763c2db0db4c2c17ac0
+2026-05-09 18:59:00,975 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-05-09 19:04:01,556 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-05-09 19:09:01,692 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-05-09 19:14:01,934 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-05-09 19:19:02,071 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-05-09 19:22:29,230 INFO - 1 tasks up for execution:
+	<TaskInstance: sqs_inference_dispatch.dispatch_messages manual__2026-05-09T19:22:28.213943+00:00 [scheduled]>
+2026-05-09 19:22:29,230 INFO - DAG sqs_inference_dispatch has 0/16 running and queued tasks
+2026-05-09 19:22:29,231 INFO - Setting the following tasks to queued state:
+	<TaskInstance: sqs_inference_dispatch.dispatch_messages manual__2026-05-09T19:22:28.213943+00:00 [scheduled]>
+2026-05-09 19:22:29,232 INFO - Trying to enqueue tasks: [<TaskInstance: sqs_inference_dispatch.dispatch_messages manual__2026-05-09T19:22:28.213943+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2026-05-09 19:22:29,232 INFO - Sending TaskInstanceKey(dag_id='sqs_inference_dispatch', task_id='dispatch_messages', run_id='manual__2026-05-09T19:22:28.213943+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2026-05-09 19:22:29,232 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'sqs_inference_dispatch', 'dispatch_messages', 'manual__2026-05-09T19:22:28.213943+00:00', '--local', '--subdir', 'DAGS_FOLDER/sqs_dispatch_dag.py']
+2026-05-09 19:22:29,238 INFO - Executing command: ['airflow', 'tasks', 'run', 'sqs_inference_dispatch', 'dispatch_messages', 'manual__2026-05-09T19:22:28.213943+00:00', '--local', '--subdir', 'DAGS_FOLDER/sqs_dispatch_dag.py']
+2026-05-09 19:22:32,138 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='sqs_inference_dispatch', task_id='dispatch_messages', run_id='manual__2026-05-09T19:22:28.213943+00:00', try_number=1, map_index=-1)
+2026-05-09 19:22:32,142 INFO - TaskInstance Finished: dag_id=sqs_inference_dispatch, task_id=dispatch_messages, run_id=manual__2026-05-09T19:22:28.213943+00:00, map_index=-1, run_start_date=2026-05-09 19:22:31.140732+00:00, run_end_date=2026-05-09 19:22:31.717442+00:00, run_duration=0.57671, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=52, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2026-05-09 19:22:29.231467+00:00, queued_by_job_id=46, pid=27690
+2026-05-09 19:22:33,186 INFO - Marking run <DagRun sqs_inference_dispatch @ 2026-05-09 19:22:28.213943+00:00: manual__2026-05-09T19:22:28.213943+00:00, state:running, queued_at: 2026-05-09 19:22:28.220109+00:00. externally triggered: True> successful
+2026-05-09 19:22:33,187 INFO - DagRun Finished: dag_id=sqs_inference_dispatch, execution_date=2026-05-09 19:22:28.213943+00:00, run_id=manual__2026-05-09T19:22:28.213943+00:00, run_start_date=2026-05-09 19:22:29.208696+00:00, run_end_date=2026-05-09 19:22:33.187104+00:00, run_duration=3.978408, state=success, external_trigger=True, run_type=manual, data_interval_start=2026-05-09 19:22:28.213943+00:00, data_interval_end=2026-05-09 19:22:28.213943+00:00, dag_hash=9746b195ebd18763c2db0db4c2c17ac0
+2026-05-09 19:24:02,309 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-05-09 19:29:02,444 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-05-09 19:34:02,581 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-05-09 19:39:03,035 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-05-09 19:44:03,173 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-05-09 19:48:54,773 INFO - 1 tasks up for execution:
+	<TaskInstance: ml_training_pipeline_v2.generate_data manual__2026-05-09T19:48:53.809625+00:00 [scheduled]>
+2026-05-09 19:48:54,773 INFO - DAG ml_training_pipeline_v2 has 0/16 running and queued tasks
+2026-05-09 19:48:54,774 INFO - Setting the following tasks to queued state:
+	<TaskInstance: ml_training_pipeline_v2.generate_data manual__2026-05-09T19:48:53.809625+00:00 [scheduled]>
+2026-05-09 19:48:54,775 INFO - Trying to enqueue tasks: [<TaskInstance: ml_training_pipeline_v2.generate_data manual__2026-05-09T19:48:53.809625+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2026-05-09 19:48:54,775 INFO - Sending TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='generate_data', run_id='manual__2026-05-09T19:48:53.809625+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 4 and queue default
+2026-05-09 19:48:54,775 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'generate_data', 'manual__2026-05-09T19:48:53.809625+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+2026-05-09 19:48:54,781 INFO - Executing command: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'generate_data', 'manual__2026-05-09T19:48:53.809625+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+2026-05-09 19:48:58,317 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='generate_data', run_id='manual__2026-05-09T19:48:53.809625+00:00', try_number=1, map_index=-1)
+2026-05-09 19:48:58,320 INFO - TaskInstance Finished: dag_id=ml_training_pipeline_v2, task_id=generate_data, run_id=manual__2026-05-09T19:48:53.809625+00:00, map_index=-1, run_start_date=2026-05-09 19:48:57.643131+00:00, run_end_date=2026-05-09 19:48:57.779361+00:00, run_duration=0.13623, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=53, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2026-05-09 19:48:54.774532+00:00, queued_by_job_id=46, pid=33693
+2026-05-09 19:48:58,477 INFO - 1 tasks up for execution:
+	<TaskInstance: ml_training_pipeline_v2.train_model manual__2026-05-09T19:48:53.809625+00:00 [scheduled]>
+2026-05-09 19:48:58,477 INFO - DAG ml_training_pipeline_v2 has 0/16 running and queued tasks
+2026-05-09 19:48:58,477 INFO - Setting the following tasks to queued state:
+	<TaskInstance: ml_training_pipeline_v2.train_model manual__2026-05-09T19:48:53.809625+00:00 [scheduled]>
+2026-05-09 19:48:58,478 INFO - Trying to enqueue tasks: [<TaskInstance: ml_training_pipeline_v2.train_model manual__2026-05-09T19:48:53.809625+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2026-05-09 19:48:58,479 INFO - Sending TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='train_model', run_id='manual__2026-05-09T19:48:53.809625+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 3 and queue default
+2026-05-09 19:48:58,479 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'train_model', 'manual__2026-05-09T19:48:53.809625+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+2026-05-09 19:48:58,485 INFO - Executing command: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'train_model', 'manual__2026-05-09T19:48:53.809625+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+2026-05-09 19:49:07,021 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='train_model', run_id='manual__2026-05-09T19:48:53.809625+00:00', try_number=1, map_index=-1)
+2026-05-09 19:49:07,024 INFO - TaskInstance Finished: dag_id=ml_training_pipeline_v2, task_id=train_model, run_id=manual__2026-05-09T19:48:53.809625+00:00, map_index=-1, run_start_date=2026-05-09 19:49:01.315974+00:00, run_end_date=2026-05-09 19:49:06.465391+00:00, run_duration=5.149417, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=54, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2026-05-09 19:48:58.478088+00:00, queued_by_job_id=46, pid=33705
+2026-05-09 19:49:07,043 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-05-09 19:49:07,293 INFO - 2 tasks up for execution:
+	<TaskInstance: ml_training_pipeline_v2.evaluate_model manual__2026-05-09T19:48:53.809625+00:00 [scheduled]>
+	<TaskInstance: sqs_inference_dispatch.dispatch_messages manual__2026-05-09T19:49:00.642812+00:00 [scheduled]>
+2026-05-09 19:49:07,293 INFO - DAG ml_training_pipeline_v2 has 0/16 running and queued tasks
+2026-05-09 19:49:07,293 INFO - DAG sqs_inference_dispatch has 0/16 running and queued tasks
+2026-05-09 19:49:07,293 INFO - Setting the following tasks to queued state:
+	<TaskInstance: ml_training_pipeline_v2.evaluate_model manual__2026-05-09T19:48:53.809625+00:00 [scheduled]>
+	<TaskInstance: sqs_inference_dispatch.dispatch_messages manual__2026-05-09T19:49:00.642812+00:00 [scheduled]>
+2026-05-09 19:49:07,295 INFO - Trying to enqueue tasks: [<TaskInstance: ml_training_pipeline_v2.evaluate_model manual__2026-05-09T19:48:53.809625+00:00 [scheduled]>, <TaskInstance: sqs_inference_dispatch.dispatch_messages manual__2026-05-09T19:49:00.642812+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2026-05-09 19:49:07,295 INFO - Sending TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='evaluate_model', run_id='manual__2026-05-09T19:48:53.809625+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2026-05-09 19:49:07,295 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'evaluate_model', 'manual__2026-05-09T19:48:53.809625+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+2026-05-09 19:49:07,296 INFO - Sending TaskInstanceKey(dag_id='sqs_inference_dispatch', task_id='dispatch_messages', run_id='manual__2026-05-09T19:49:00.642812+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2026-05-09 19:49:07,296 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'sqs_inference_dispatch', 'dispatch_messages', 'manual__2026-05-09T19:49:00.642812+00:00', '--local', '--subdir', 'DAGS_FOLDER/sqs_dispatch_dag.py']
+2026-05-09 19:49:07,302 INFO - Executing command: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'evaluate_model', 'manual__2026-05-09T19:48:53.809625+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+2026-05-09 19:49:10,813 INFO - Executing command: ['airflow', 'tasks', 'run', 'sqs_inference_dispatch', 'dispatch_messages', 'manual__2026-05-09T19:49:00.642812+00:00', '--local', '--subdir', 'DAGS_FOLDER/sqs_dispatch_dag.py']
+2026-05-09 19:49:13,857 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='evaluate_model', run_id='manual__2026-05-09T19:48:53.809625+00:00', try_number=1, map_index=-1)
+2026-05-09 19:49:13,857 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='sqs_inference_dispatch', task_id='dispatch_messages', run_id='manual__2026-05-09T19:49:00.642812+00:00', try_number=1, map_index=-1)
+2026-05-09 19:49:13,863 INFO - TaskInstance Finished: dag_id=ml_training_pipeline_v2, task_id=evaluate_model, run_id=manual__2026-05-09T19:48:53.809625+00:00, map_index=-1, run_start_date=2026-05-09 19:49:10.139090+00:00, run_end_date=2026-05-09 19:49:10.288329+00:00, run_duration=0.149239, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=55, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2026-05-09 19:49:07.294360+00:00, queued_by_job_id=46, pid=33747
+2026-05-09 19:49:13,863 INFO - TaskInstance Finished: dag_id=sqs_inference_dispatch, task_id=dispatch_messages, run_id=manual__2026-05-09T19:49:00.642812+00:00, map_index=-1, run_start_date=2026-05-09 19:49:12.741354+00:00, run_end_date=2026-05-09 19:49:13.456919+00:00, run_duration=0.715565, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=56, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2026-05-09 19:49:07.294360+00:00, queued_by_job_id=46, pid=33757
+2026-05-09 19:49:14,140 INFO - Marking run <DagRun sqs_inference_dispatch @ 2026-05-09 19:49:00.642812+00:00: manual__2026-05-09T19:49:00.642812+00:00, state:running, queued_at: 2026-05-09 19:49:00.651990+00:00. externally triggered: True> successful
+2026-05-09 19:49:14,141 INFO - DagRun Finished: dag_id=sqs_inference_dispatch, execution_date=2026-05-09 19:49:00.642812+00:00, run_id=manual__2026-05-09T19:49:00.642812+00:00, run_start_date=2026-05-09 19:49:07.267931+00:00, run_end_date=2026-05-09 19:49:14.140970+00:00, run_duration=6.873039, state=success, external_trigger=True, run_type=manual, data_interval_start=2026-05-09 19:49:00.642812+00:00, data_interval_end=2026-05-09 19:49:00.642812+00:00, dag_hash=9746b195ebd18763c2db0db4c2c17ac0
+2026-05-09 19:49:14,156 INFO - 2 tasks up for execution:
+	<TaskInstance: ml_training_pipeline_v2.generate_data manual__2026-05-09T19:49:09.819686+00:00 [scheduled]>
+	<TaskInstance: ml_training_pipeline_v2.promote_model manual__2026-05-09T19:48:53.809625+00:00 [scheduled]>
+2026-05-09 19:49:14,157 INFO - DAG ml_training_pipeline_v2 has 0/16 running and queued tasks
+2026-05-09 19:49:14,157 INFO - DAG ml_training_pipeline_v2 has 1/16 running and queued tasks
+2026-05-09 19:49:14,157 INFO - Setting the following tasks to queued state:
+	<TaskInstance: ml_training_pipeline_v2.generate_data manual__2026-05-09T19:49:09.819686+00:00 [scheduled]>
+	<TaskInstance: ml_training_pipeline_v2.promote_model manual__2026-05-09T19:48:53.809625+00:00 [scheduled]>
+2026-05-09 19:49:14,158 INFO - Trying to enqueue tasks: [<TaskInstance: ml_training_pipeline_v2.generate_data manual__2026-05-09T19:49:09.819686+00:00 [scheduled]>, <TaskInstance: ml_training_pipeline_v2.promote_model manual__2026-05-09T19:48:53.809625+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2026-05-09 19:49:14,159 INFO - Sending TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='generate_data', run_id='manual__2026-05-09T19:49:09.819686+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 4 and queue default
+2026-05-09 19:49:14,159 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'generate_data', 'manual__2026-05-09T19:49:09.819686+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+2026-05-09 19:49:14,159 INFO - Sending TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='promote_model', run_id='manual__2026-05-09T19:48:53.809625+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2026-05-09 19:49:14,159 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'promote_model', 'manual__2026-05-09T19:48:53.809625+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+2026-05-09 19:49:14,165 INFO - Executing command: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'generate_data', 'manual__2026-05-09T19:49:09.819686+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+2026-05-09 19:49:17,671 INFO - Executing command: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'promote_model', 'manual__2026-05-09T19:48:53.809625+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+2026-05-09 19:49:21,514 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='generate_data', run_id='manual__2026-05-09T19:49:09.819686+00:00', try_number=1, map_index=-1)
+2026-05-09 19:49:21,514 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='promote_model', run_id='manual__2026-05-09T19:48:53.809625+00:00', try_number=1, map_index=-1)
+2026-05-09 19:49:21,517 INFO - TaskInstance Finished: dag_id=ml_training_pipeline_v2, task_id=promote_model, run_id=manual__2026-05-09T19:48:53.809625+00:00, map_index=-1, run_start_date=2026-05-09 19:49:20.479130+00:00, run_end_date=2026-05-09 19:49:20.968852+00:00, run_duration=0.489722, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=58, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2026-05-09 19:49:14.158095+00:00, queued_by_job_id=46, pid=33785
+2026-05-09 19:49:21,518 INFO - TaskInstance Finished: dag_id=ml_training_pipeline_v2, task_id=generate_data, run_id=manual__2026-05-09T19:49:09.819686+00:00, map_index=-1, run_start_date=2026-05-09 19:49:17.008792+00:00, run_end_date=2026-05-09 19:49:17.142633+00:00, run_duration=0.133841, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=57, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2026-05-09 19:49:14.158095+00:00, queued_by_job_id=46, pid=33769
+2026-05-09 19:49:21,669 INFO - Marking run <DagRun ml_training_pipeline_v2 @ 2026-05-09 19:48:53.809625+00:00: manual__2026-05-09T19:48:53.809625+00:00, state:running, queued_at: 2026-05-09 19:48:53.815393+00:00. externally triggered: True> successful
+2026-05-09 19:49:21,670 INFO - DagRun Finished: dag_id=ml_training_pipeline_v2, execution_date=2026-05-09 19:48:53.809625+00:00, run_id=manual__2026-05-09T19:48:53.809625+00:00, run_start_date=2026-05-09 19:48:54.751128+00:00, run_end_date=2026-05-09 19:49:21.670313+00:00, run_duration=26.919185, state=success, external_trigger=True, run_type=manual, data_interval_start=2026-05-09 19:48:53.809625+00:00, data_interval_end=2026-05-09 19:48:53.809625+00:00, dag_hash=790a217ed62764d314cb7606d9f6883c
+2026-05-09 19:49:21,680 INFO - 1 tasks up for execution:
+	<TaskInstance: ml_training_pipeline_v2.train_model manual__2026-05-09T19:49:09.819686+00:00 [scheduled]>
+2026-05-09 19:49:21,681 INFO - DAG ml_training_pipeline_v2 has 0/16 running and queued tasks
+2026-05-09 19:49:21,681 INFO - Setting the following tasks to queued state:
+	<TaskInstance: ml_training_pipeline_v2.train_model manual__2026-05-09T19:49:09.819686+00:00 [scheduled]>
+2026-05-09 19:49:21,682 INFO - Trying to enqueue tasks: [<TaskInstance: ml_training_pipeline_v2.train_model manual__2026-05-09T19:49:09.819686+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2026-05-09 19:49:21,682 INFO - Sending TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='train_model', run_id='manual__2026-05-09T19:49:09.819686+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 3 and queue default
+2026-05-09 19:49:21,683 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'train_model', 'manual__2026-05-09T19:49:09.819686+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+2026-05-09 19:49:21,689 INFO - Executing command: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'train_model', 'manual__2026-05-09T19:49:09.819686+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+2026-05-09 19:49:31,534 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='train_model', run_id='manual__2026-05-09T19:49:09.819686+00:00', try_number=1, map_index=-1)
+2026-05-09 19:49:31,537 INFO - TaskInstance Finished: dag_id=ml_training_pipeline_v2, task_id=train_model, run_id=manual__2026-05-09T19:49:09.819686+00:00, map_index=-1, run_start_date=2026-05-09 19:49:24.512231+00:00, run_end_date=2026-05-09 19:49:30.978519+00:00, run_duration=6.466288, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=59, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2026-05-09 19:49:21.681658+00:00, queued_by_job_id=46, pid=33852
+2026-05-09 19:49:31,693 INFO - 1 tasks up for execution:
+	<TaskInstance: ml_training_pipeline_v2.evaluate_model manual__2026-05-09T19:49:09.819686+00:00 [scheduled]>
+2026-05-09 19:49:31,693 INFO - DAG ml_training_pipeline_v2 has 0/16 running and queued tasks
+2026-05-09 19:49:31,694 INFO - Setting the following tasks to queued state:
+	<TaskInstance: ml_training_pipeline_v2.evaluate_model manual__2026-05-09T19:49:09.819686+00:00 [scheduled]>
+2026-05-09 19:49:31,694 INFO - Trying to enqueue tasks: [<TaskInstance: ml_training_pipeline_v2.evaluate_model manual__2026-05-09T19:49:09.819686+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2026-05-09 19:49:31,695 INFO - Sending TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='evaluate_model', run_id='manual__2026-05-09T19:49:09.819686+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2026-05-09 19:49:31,695 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'evaluate_model', 'manual__2026-05-09T19:49:09.819686+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+2026-05-09 19:49:31,701 INFO - Executing command: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'evaluate_model', 'manual__2026-05-09T19:49:09.819686+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+2026-05-09 19:49:35,214 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='evaluate_model', run_id='manual__2026-05-09T19:49:09.819686+00:00', try_number=1, map_index=-1)
+2026-05-09 19:49:35,218 INFO - TaskInstance Finished: dag_id=ml_training_pipeline_v2, task_id=evaluate_model, run_id=manual__2026-05-09T19:49:09.819686+00:00, map_index=-1, run_start_date=2026-05-09 19:49:34.526431+00:00, run_end_date=2026-05-09 19:49:34.671615+00:00, run_duration=0.145184, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=60, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2026-05-09 19:49:31.694364+00:00, queued_by_job_id=46, pid=33876
+2026-05-09 19:49:35,463 INFO - 1 tasks up for execution:
+	<TaskInstance: ml_training_pipeline_v2.promote_model manual__2026-05-09T19:49:09.819686+00:00 [scheduled]>
+2026-05-09 19:49:35,464 INFO - DAG ml_training_pipeline_v2 has 0/16 running and queued tasks
+2026-05-09 19:49:35,464 INFO - Setting the following tasks to queued state:
+	<TaskInstance: ml_training_pipeline_v2.promote_model manual__2026-05-09T19:49:09.819686+00:00 [scheduled]>
+2026-05-09 19:49:35,465 INFO - Trying to enqueue tasks: [<TaskInstance: ml_training_pipeline_v2.promote_model manual__2026-05-09T19:49:09.819686+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2026-05-09 19:49:35,465 INFO - Sending TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='promote_model', run_id='manual__2026-05-09T19:49:09.819686+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2026-05-09 19:49:35,465 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'promote_model', 'manual__2026-05-09T19:49:09.819686+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+2026-05-09 19:49:35,471 INFO - Executing command: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'promote_model', 'manual__2026-05-09T19:49:09.819686+00:00', '--local', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py']
+2026-05-09 19:49:39,341 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='ml_training_pipeline_v2', task_id='promote_model', run_id='manual__2026-05-09T19:49:09.819686+00:00', try_number=1, map_index=-1)
+2026-05-09 19:49:39,345 INFO - TaskInstance Finished: dag_id=ml_training_pipeline_v2, task_id=promote_model, run_id=manual__2026-05-09T19:49:09.819686+00:00, map_index=-1, run_start_date=2026-05-09 19:49:38.303688+00:00, run_end_date=2026-05-09 19:49:38.795071+00:00, run_duration=0.491383, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=61, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2026-05-09 19:49:35.464628+00:00, queued_by_job_id=46, pid=33895
+2026-05-09 19:49:39,486 INFO - Marking run <DagRun ml_training_pipeline_v2 @ 2026-05-09 19:49:09.819686+00:00: manual__2026-05-09T19:49:09.819686+00:00, state:running, queued_at: 2026-05-09 19:49:09.825809+00:00. externally triggered: True> successful
+2026-05-09 19:49:39,487 INFO - DagRun Finished: dag_id=ml_training_pipeline_v2, execution_date=2026-05-09 19:49:09.819686+00:00, run_id=manual__2026-05-09T19:49:09.819686+00:00, run_start_date=2026-05-09 19:49:14.126164+00:00, run_end_date=2026-05-09 19:49:39.487013+00:00, run_duration=25.360849, state=success, external_trigger=True, run_type=manual, data_interval_start=2026-05-09 19:49:09.819686+00:00, data_interval_end=2026-05-09 19:49:09.819686+00:00, dag_hash=790a217ed62764d314cb7606d9f6883c
+2026-05-09 19:54:07,178 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-05-09 19:59:08,014 INFO - Adopting or resetting orphaned tasks for active dag runs

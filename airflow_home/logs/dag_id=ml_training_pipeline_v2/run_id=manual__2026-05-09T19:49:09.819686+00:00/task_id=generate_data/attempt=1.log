@@ -1,0 +1,26 @@
+[2026-05-09T19:49:17.002+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-09T19:49:17.008+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ml_training_pipeline_v2.generate_data manual__2026-05-09T19:49:09.819686+00:00 [queued]>
+[2026-05-09T19:49:17.012+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ml_training_pipeline_v2.generate_data manual__2026-05-09T19:49:09.819686+00:00 [queued]>
+[2026-05-09T19:49:17.012+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-05-09T19:49:17.024+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): generate_data> on 2026-05-09 19:49:09.819686+00:00
+[2026-05-09T19:49:17.029+0000] {standard_task_runner.py:72} INFO - Started process 33769 to run task
+[2026-05-09T19:49:17.031+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'generate_data', 'manual__2026-05-09T19:49:09.819686+00:00', '--job-id', '57', '--raw', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py', '--cfg-path', '/tmp/tmp4qx6apjh']
+[2026-05-09T19:49:17.032+0000] {standard_task_runner.py:105} INFO - Job 57: Subtask generate_data
+[2026-05-09T19:49:17.060+0000] {task_command.py:467} INFO - Running <TaskInstance: ml_training_pipeline_v2.generate_data manual__2026-05-09T19:49:09.819686+00:00 [running]> on host ip-172-31-33-18.ec2.internal
+[2026-05-09T19:49:17.106+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='ml_training_pipeline_v2' AIRFLOW_CTX_TASK_ID='generate_data' AIRFLOW_CTX_EXECUTION_DATE='2026-05-09T19:49:09.819686+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-09T19:49:09.819686+00:00'
+[2026-05-09T19:49:17.107+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-05-09T19:49:17.107+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-05-09T19:49:17.107+0000] {logging_mixin.py:190} INFO - Current task name:generate_data state:running start_date:2026-05-09 19:49:17.008792+00:00
+[2026-05-09T19:49:17.107+0000] {logging_mixin.py:190} INFO - Dag name:ml_training_pipeline_v2 and current dag run status:running
+[2026-05-09T19:49:17.108+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-05-09T19:49:17.131+0000] {logging_mixin.py:190} INFO - [ml_pipeline.data] Dataset saved to /home/ec2-user/environment/lab4_model_training/data/breast_cancer.csv
+[2026-05-09T19:49:17.131+0000] {python.py:240} INFO - Done. Returned value was: /home/ec2-user/environment/lab4_model_training/data/breast_cancer.csv
+[2026-05-09T19:49:17.142+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-05-09T19:49:17.142+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=ml_training_pipeline_v2, task_id=generate_data, run_id=manual__2026-05-09T19:49:09.819686+00:00, execution_date=20260509T194909, start_date=20260509T194917, end_date=20260509T194917
+[2026-05-09T19:49:17.158+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-05-09T19:49:17.158+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-05-09T19:49:17.158+0000] {logging_mixin.py:190} INFO - Dag name:ml_training_pipeline_v2 queued_at:2026-05-09 19:49:09.825809+00:00
+[2026-05-09T19:49:17.158+0000] {logging_mixin.py:190} INFO - Task hostname:ip-172-31-33-18.ec2.internal operator:PythonOperator
+[2026-05-09T19:49:17.203+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-09T19:49:17.219+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-09T19:49:17.224+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

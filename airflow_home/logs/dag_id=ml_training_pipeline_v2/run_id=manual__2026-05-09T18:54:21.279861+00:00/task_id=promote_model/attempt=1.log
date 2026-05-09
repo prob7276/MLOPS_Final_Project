@@ -1,0 +1,36 @@
+[2026-05-09T18:54:41.686+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-09T18:54:41.695+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ml_training_pipeline_v2.promote_model manual__2026-05-09T18:54:21.279861+00:00 [queued]>
+[2026-05-09T18:54:41.700+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ml_training_pipeline_v2.promote_model manual__2026-05-09T18:54:21.279861+00:00 [queued]>
+[2026-05-09T18:54:41.700+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-05-09T18:54:41.714+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): promote_model> on 2026-05-09 18:54:21.279861+00:00
+[2026-05-09T18:54:41.719+0000] {standard_task_runner.py:72} INFO - Started process 18872 to run task
+[2026-05-09T18:54:41.721+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'promote_model', 'manual__2026-05-09T18:54:21.279861+00:00', '--job-id', '50', '--raw', '--subdir', 'DAGS_FOLDER/ml_pipeline_dag.py', '--cfg-path', '/tmp/tmpw0t43crq']
+[2026-05-09T18:54:41.722+0000] {standard_task_runner.py:105} INFO - Job 50: Subtask promote_model
+[2026-05-09T18:54:41.749+0000] {task_command.py:467} INFO - Running <TaskInstance: ml_training_pipeline_v2.promote_model manual__2026-05-09T18:54:21.279861+00:00 [running]> on host ip-172-31-33-18.ec2.internal
+[2026-05-09T18:54:41.801+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='ml_training_pipeline_v2' AIRFLOW_CTX_TASK_ID='promote_model' AIRFLOW_CTX_EXECUTION_DATE='2026-05-09T18:54:21.279861+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-09T18:54:21.279861+00:00'
+[2026-05-09T18:54:41.801+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-05-09T18:54:41.802+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-05-09T18:54:41.802+0000] {logging_mixin.py:190} INFO - Current task name:promote_model state:running start_date:2026-05-09 18:54:41.695543+00:00
+[2026-05-09T18:54:41.802+0000] {logging_mixin.py:190} INFO - Dag name:ml_training_pipeline_v2 and current dag run status:running
+[2026-05-09T18:54:41.802+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-05-09T18:54:41.802+0000] {logging_mixin.py:190} INFO - [ml_pipeline.model] Promoting version 20260509_185421
+[2026-05-09T18:54:41.803+0000] {logging_mixin.py:190} INFO - Uploading model.pkl to s3://final-project-bucket-prob7276/models/20260509_185421/model.pkl
+[2026-05-09T18:54:41.806+0000] {base.py:84} INFO - Retrieving connection 'aws_default'
+[2026-05-09T18:54:42.008+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2026-05-09T18:54:42.177+0000] {hook.py:208} WARNING - Data lineage tracking is disabled. Register a hook lineage reader to start tracking hook lineage.
+[2026-05-09T18:54:42.177+0000] {logging_mixin.py:190} INFO - Uploading metrics.json to s3://final-project-bucket-prob7276/models/20260509_185421/metrics.json
+[2026-05-09T18:54:42.205+0000] {hook.py:208} WARNING - Data lineage tracking is disabled. Register a hook lineage reader to start tracking hook lineage.
+[2026-05-09T18:54:42.205+0000] {hook.py:208} WARNING - Data lineage tracking is disabled. Register a hook lineage reader to start tracking hook lineage.
+[2026-05-09T18:54:42.206+0000] {logging_mixin.py:190} INFO - Uploading metadata.json to s3://final-project-bucket-prob7276/models/20260509_185421/metadata.json
+[2026-05-09T18:54:42.229+0000] {hook.py:208} WARNING - Data lineage tracking is disabled. Register a hook lineage reader to start tracking hook lineage.
+[2026-05-09T18:54:42.229+0000] {hook.py:208} WARNING - Data lineage tracking is disabled. Register a hook lineage reader to start tracking hook lineage.
+[2026-05-09T18:54:42.230+0000] {python.py:240} INFO - Done. Returned value was: True
+[2026-05-09T18:54:42.244+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-05-09T18:54:42.244+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=ml_training_pipeline_v2, task_id=promote_model, run_id=manual__2026-05-09T18:54:21.279861+00:00, execution_date=20260509T185421, start_date=20260509T185441, end_date=20260509T185442
+[2026-05-09T18:54:42.261+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-05-09T18:54:42.261+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-05-09T18:54:42.262+0000] {logging_mixin.py:190} INFO - Dag name:ml_training_pipeline_v2 queued_at:2026-05-09 18:54:21.289674+00:00
+[2026-05-09T18:54:42.262+0000] {logging_mixin.py:190} INFO - Task hostname:ip-172-31-33-18.ec2.internal operator:PythonOperator
+[2026-05-09T18:54:42.294+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-09T18:54:42.303+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-09T18:54:42.303+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
