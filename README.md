@@ -7,6 +7,7 @@ Jacob Probst, University of St. Thomas
 ---Description---
 
 This repository demonstrates Apache Airflow Orchestration, S3 storage, SQS message queuing, and Kubernetes scaling.
+
 <br>
 ---System Requirements---
 
@@ -19,6 +20,7 @@ Kubernetes/EKS cluster
 Docker
 
 Apache Airflow
+
 <br>
 ---IAM---
 
@@ -29,6 +31,7 @@ s3:PutObject
 sqs:ReceiveMessage
 
 ***NOTE: This project was completed in an AWS Lab environment. Confirm permissions for AWS CLI are correct.***
+
 <br>
 ---Configuration---
 
@@ -53,6 +56,7 @@ docker push [AWS_ACCOUNT_ID].dkr.ecr.us-east-1.amazonaws.com/inference-worker:la
 Kubernetes Code:
 
 kubectl apply -f deployment.yaml
+
 <br>
 ---Instructions for System Execution---
 
@@ -63,12 +67,14 @@ Run the Queue Population DAG in the Airflow UI
 Code to Monitor Kubernetes Workers:
 
 kubectl logs -l app=inference-worker -f --prefix
+
 <br>
 ---Allow for Scaling Via Kubernetes---
 
 Increase Number of Workers Code:
 
 kubectl scale deployment inference-worker-deployment --replicas=5
+
 <br>
 ---Cleanup---
 
