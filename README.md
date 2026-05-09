@@ -39,7 +39,7 @@ sqs:ReceiveMessage
 Before running, update the following in Airflow Variables or .env:
 
 - BUCKET_NAME: final-project-bucket-prob7276
-- 
+
 - SQS_QUEUE_URL: <insert_generated_url_here>
 
 - AWS_DEFAULT_REGION: us-east-1
